@@ -1,0 +1,32 @@
+site_name: My Docs
+theme: 
+  name: material
+  language: pt-BR
+markdown_extensions:
+  - admonition
+  - nl2br
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+plugins:
+  - macros
+  - search
+  - callouts
+
+extra:
+  nomes:
+    perfil_viga: perfil U 
+  links:
+    markdown: "https://www.markdownguide.org/"
+    material: "https://squidfunk.github.io/mkdocs-material/"
+    mkdocs: "https://www.mkdocs.org/"
+    mkdocs_instalacao: "instação do MKDocs](https://www.mkdocs.org/user-guide/installation/"
+    python: "https://www.python.org/"
+    python_download: "https://www.python.org/downloads/"
+  imagens:
+    python_instalacao: "![Instalação python](/assets/images/instalacao_python.PNG)"
