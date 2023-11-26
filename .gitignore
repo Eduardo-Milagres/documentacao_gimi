@@ -155,7 +155,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+#/site
 
 # mypy
 .mypy_cache/
@@ -210,7 +210,7 @@ pyrightconfig.json
 # Folders to ignore
 teste/
 .idea/
-.docs/
+docs/
 
 
 #Ignore executable files
