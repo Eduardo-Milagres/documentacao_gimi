@@ -210,7 +210,6 @@ pyrightconfig.json
 # Folders to ignore
 teste/
 .idea/
-docs/
 
 
 #Ignore executable files

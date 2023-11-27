@@ -1,4 +1,8 @@
-site_name: My Docs
+site_name: Documentação GIMI
+repo_url: https://github.com/Eduardo-Milagres/documentacao_gimi
+repo_name: documentacao_gimi
+edit_uri: tree/main/docs
+
 theme: 
   name: material
   language: pt-BR
@@ -9,10 +13,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+  - pymdownx.emoji  # Suporte a emojis
+  - pymdownx.tasklist  # Suporte para tarefas
+  - pymdownx.mark  # Suporte para marcações
+  - pymdownx.tilde  # Suporte a tachado
+  - pymdownx.highlight  # Suporte a código
 plugins:
   - macros
   - search
@@ -20,13 +25,18 @@ plugins:
 
 extra:
   nomes:
+    github_doc_repo: documentacao_gimi
     perfil_viga: perfil U 
   links:
     markdown: "https://www.markdownguide.org/"
     material: "https://squidfunk.github.io/mkdocs-material/"
     mkdocs: "https://www.mkdocs.org/"
-    mkdocs_instalacao: "instação do MKDocs](https://www.mkdocs.org/user-guide/installation/"
+    mkdocs_instalacao: "https://www.mkdocs.org/user-guide/installation/"
     python: "https://www.python.org/"
     python_download: "https://www.python.org/downloads/"
+    github: "https://github.com/"
+    github_doc_repo: "https://github.com/Eduardo-Milagres/documentacao_gimi"
+    netlify: "https://app.netlify.com/"
+    netlify_doc_link: "https://documentacaogimi.netlify.app/"
   imagens:
     python_instalacao: "![Instalação python](/assets/images/instalacao_python.PNG)"
