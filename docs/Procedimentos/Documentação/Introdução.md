@@ -36,10 +36,45 @@ pip install mkdocs
 
 Para instruções mais detalhadas e solução de dúvidas, vá ao site de [instalação do MKDocs]({{ links.mkdocs_instalacao }})
 
-### Material
+### Utilização do MKDocs
+#### Criação da documentação
+Para rodar o {{ links.mkdocs }}, no terminal / cmd rode o comando:
+
+```bush
+mkdocs new nome_da_pasta_de_documentação
+```
+
+Para esse projeto foi utilizada a pasta padrão do {{ links.mkdocs }}.
+
+```bush
+mkdocs new .
+```
+
+Após rodar o comando, o {{ links.mkdocs }} irá criar uma pasta .docs, onde serão armazenadas todos os arquivos da documentação.
+
+#### Vizualização da documentação
+Para vizualizar a documentação criada, rode o comando:
+
+```bush
+mkdocs serve
+```
+
+O comando irá rodar um servidor local (na máquina do usuário) onde a documentação pode ser vizualizada.
+
+#### Gerar a documentação
+Para que a documentação seja acessível para todos os usuários ela deve ser independete, ou seja, os usuários que irão vizualizar a documentação não devem se preocupar com os [pré requisitos](#pré-requisitos).
+Para isso, após o término da documentação rode o comando:
+
+```bush
+mkdocs build
+```
+
+O comando transformará todos os arquivos {{ links.markdown }} em arquivos html que podem ser acessados por todos os navegadores, esses arquivos serão criados na pasta *site*.
+
+## Material
 O [material]({{ links.material }}) é um tema aplicado ao [MKDocs]({{ links.mkdocs }}) para alterar o layout das páginas e adicionar algumas funcionalidades. O [material]({{ links.material }}) é o tema mais utilizado nas documentações atuais. 
 
-#### Instalação do Material
+### Instalação do Material
 No terminal / cmd digite:
 ```bush
 pip install mkdocs-material 
@@ -77,3 +112,12 @@ Resultado:
 ```bush
 O perfil U...
 ```
+
+# Disponibilar a documentação online
+Todos os arquivos referentes a documentação estão disponíveis no repositório [documentacao_gimi]({{ links.github_doc_repo }}) do [github]({{ links.github }}).
+
+Após qualquer atualização ou ao fim do dia de trabalho é recomendado o upload da documentação no repositório do [github]({{ links.github }}).
+
+O [repositório do projeto]({{ links.github_doc_repo }}) está vinculado com o [netlify]({{ links.netlify }}), um site de hospedagem de sites estáticos, onde a documentação pode ser acessada por qualquer dispositivo.
+
+## Atualização da documentação
