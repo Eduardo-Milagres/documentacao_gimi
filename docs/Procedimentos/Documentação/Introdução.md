@@ -80,6 +80,8 @@ No terminal / cmd digite:
 pip install mkdocs-material 
 ```
 
+Para mais detalhes sobre o tema acesse a página do [material para MKDocs]{{ links.github_material }} no [Github]{{ links.github }}
+
 # Plugins
 ## MKDocs macros
 O MKDcos macros permite a criação de variáveis no arquivo **mkdocs.yml** do [MKDocs]({{ links.mkdocs }}) para facilitar futuras manutenções.
@@ -112,6 +114,30 @@ Resultado:
 ```bush
 O perfil U...
 ```
+
+## pymdown-extension
+O pymdown extension é utilizado para disponibilizar os recursos de {{ links.markdown }} expandido, como ==texto realçado==, ~texto tachado~, [] ToDo list, entre outros recursos.
+
+## Instalação
+No terminal / cmd digite:
+```bush
+pip install mdown-extension-plugin
+```
+
+### Utilização
+Para adicionar os recursos desejados, no arquivo .yml, no grupo markdown_extensions, adicione os recursos desejados.
+Para consulta dos recursos e mais informações acesse a [documentação do PyMDown Exntensions]({{ links.pymdown_extensions }})
+
+## MKDocs Collouts
+O MKDocs Collauts habilita caixas de texto destacadas
+
+>[!info]
+> Use > para iniciar o bloco destacado
+
+>[!warning] Atenção
+>Exemplo de callout
+
+Para mais detalhes, acesse a documentação do (MKDocs Collouts)[{{ links.mkdocs_collouts }}]
 
 # Disponibilar a documentação online
 Todos os arquivos referentes a documentação estão disponíveis no repositório [documentacao_gimi]({{ links.github_doc_repo }}) do [github]({{ links.github }}).
