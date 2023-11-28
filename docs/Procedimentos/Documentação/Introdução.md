@@ -31,7 +31,7 @@ O [python]({{ links.python }}) pode ser baixado na página de [downloads]({{ lin
 No terminal / cmd digite:
 
 ```bash
-pip install mkdocs
+    pip install mkdocs
 ```
 
 Para instruções mais detalhadas e solução de dúvidas, vá ao site de [instalação do MKDocs]({{ links.mkdocs_instalacao }})
@@ -40,14 +40,14 @@ Para instruções mais detalhadas e solução de dúvidas, vá ao site de [insta
 #### Criação da documentação
 Para rodar o {{ links.mkdocs }}, no terminal / cmd rode o comando:
 
-```bush
-mkdocs new nome_da_pasta_de_documentação
+```bash
+    mkdocs new nome_da_pasta_de_documentação
 ```
 
 Para esse projeto foi utilizada a pasta padrão do {{ links.mkdocs }}.
 
-```bush
-mkdocs new .
+```bash
+    mkdocs new .
 ```
 
 Após rodar o comando, o {{ links.mkdocs }} irá criar uma pasta .docs, onde serão armazenadas todos os arquivos da documentação.
@@ -55,8 +55,8 @@ Após rodar o comando, o {{ links.mkdocs }} irá criar uma pasta .docs, onde ser
 #### Vizualização da documentação
 Para vizualizar a documentação criada, rode o comando:
 
-```bush
-mkdocs serve
+```bash
+    mkdocs serve
 ```
 
 O comando irá rodar um servidor local (na máquina do usuário) onde a documentação pode ser vizualizada.
@@ -65,8 +65,8 @@ O comando irá rodar um servidor local (na máquina do usuário) onde a document
 Para que a documentação seja acessível para todos os usuários ela deve ser independete, ou seja, os usuários que irão vizualizar a documentação não devem se preocupar com os [pré requisitos](#pré-requisitos).
 Para isso, após o término da documentação rode o comando:
 
-```bush
-mkdocs build
+```bash
+    mkdocs build
 ```
 
 O comando transformará todos os arquivos {{ links.markdown }} em arquivos html que podem ser acessados por todos os navegadores, esses arquivos serão criados na pasta *site*.
@@ -76,8 +76,8 @@ O [material]({{ links.material }}) é um tema aplicado ao [MKDocs]({{ links.mkdo
 
 ### Instalação do Material
 No terminal / cmd digite:
-```bush
-pip install mkdocs-material 
+```bash
+    pip install mkdocs-material 
 ```
 
 Para mais detalhes sobre o tema acesse a página do [material para MKDocs]{{ links.github_material }} no [Github]{{ links.github }}
@@ -88,8 +88,8 @@ O MKDcos macros permite a criação de variáveis no arquivo **mkdocs.yml** do [
 
 ### Instalação
 No terminal / cmd digite:
-```bush
-pip install mkdocs-macros-plugin
+```bash
+    pip install mkdocs-macros-plugin
 ```
 
 ### Utilização
@@ -106,22 +106,22 @@ extra:
 ```
 
 Referência:
-```bush 
-O {{ links.perfil_viga }}
+```bash 
+    O {{ links.perfil_viga }}
 ```
 
 Resultado:
-```bush
-O perfil U...
+```bash
+    O perfil U...
 ```
 
 ## pymdown-extension
-O pymdown extension é utilizado para disponibilizar os recursos de {{ links.markdown }} expandido, como ==texto realçado==, ~texto tachado~, [] ToDo list, entre outros recursos.
+O pymdown extension é utilizado para disponibilizar os recursos de {{ links.markdown }} expandido, como ==texto realçado==, ~~texto tachado~~, [ ] ToDo list, entre outros recursos.
 
 ## Instalação
 No terminal / cmd digite:
-```bush
-pip install mdown-extension-plugin
+```bash
+    pip install mdown-extension-plugin
 ```
 
 ### Utilização
@@ -137,7 +137,7 @@ O MKDocs Collauts habilita caixas de texto destacadas
 >[!warning] Atenção
 >Exemplo de callout
 
-Para mais detalhes, acesse a documentação do (MKDocs Collouts)[{{ links.mkdocs_collouts }}]
+Para mais detalhes, acesse a documentação do [MKDocs Collouts]({{ links.mkdocs_collouts }})
 
 # Disponibilar a documentação online
 Todos os arquivos referentes a documentação estão disponíveis no repositório [documentacao_gimi]({{ links.github_doc_repo }}) do [github]({{ links.github }}).
@@ -147,3 +147,73 @@ Após qualquer atualização ou ao fim do dia de trabalho é recomendado o uploa
 O [repositório do projeto]({{ links.github_doc_repo }}) está vinculado com o [netlify]({{ links.netlify }}), um site de hospedagem de sites estáticos, onde a documentação pode ser acessada por qualquer dispositivo.
 
 ## Atualização da documentação
+Ao terminar a revisão da documentação é necessário atualiza-la no repositório do [github]({{ links.github }}), a atualização pode ser feita por dois métodos. 
+
+### 1. Método pela linha de comando
+**1.1 Abra o terminal / cmd**
+
+Altere o diretório para a pasta raiz da documentação utilizando o comando *cd*
+
+```bash
+    cd "pasta_da_documentação"
+```
+
+Como exemplo imagine que seus arquivos de documentação estão na pasta *Documentação GIMI* na sua área de trabalho.
+
+```bash
+    cd "C:\Users\user1\Área de Trabalho\Documentação GIMI"
+```
+
+**1.2 Adicione os arquivos alterados**
+Os arquivos são adicionados ao *commit* com o comando *git add* e o nomes dos arquivos que serão adicionados com as extensões, para mais de uma arquivo os nomes devem ser separados por um espaço.
+
+No terminal / cmd digite o comando
+```bash
+    git add arquivo1.md arquivo2.md
+```
+
+**1.3. Verificação do Status dos arquivos adicionados**
+Para verificar se os arquivos foram adicionados ao *commit* use o comando *status*.
+
+No terminal / cmd digite o comando
+```bash
+    git status
+```
+
+**1.4 Commit**
+Para fazer o upload dos arquivos no repositório do [github]({{ links.github }}), use o comando *commit*
+Para os commits, dese-se seguir o padão mostrado abaixo. 
+
+```bash
+    git commit -m "mesagem_do_cimmit"
+```
+
+A mennsagem do commit deve seguir o padrão mostrado no tópico sobre [mensagem de commit](#mensagem-de-commit).
+
+### 2. Método pelo VSCode
+**2.1 Adicionando os arquivos alterados**
+No VSCode, no menu lateral clique na ícone de controle de versão (Source Control).
+
+{{ imagens.campo_source_control_vscode }}
+
+Os arquivos alterados serão mostrados no campo *change*
+
+==imagem==
+
+Para adicionar os arquivos individualmente no *commit* clique no "+" a direita do nome do arquivo.
+Para adionar todos os arquivos do campo *change* clique no "+" ao lado do nome do campo.
+
+==imagem==
+
+#### 2.2 **Commit**
+Para fazer o upload dos arquivos no repositório do {{ links.github }}, escreva a mensagem na caixa de texto (*Message*) com o padrão mostrado no tópico sobre [mensagem de commit](#mensagem-de-commit)
+
+### Mensagem de *Commit*
+Os emojis e categorias padronizados podem ser encontrados na página de [padrões de commit]({{ links.padroes_commit }}) no [github]({{ links.github }}).
+A mensagem padrão segue o seguinte layout:
+
+```bash
+    :emoji: categoria: "mensagem de commit"
+```
+
+

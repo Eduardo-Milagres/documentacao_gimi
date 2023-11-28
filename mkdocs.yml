@@ -28,15 +28,20 @@ extra:
     github_doc_repo: documentacao_gimi
     perfil_viga: perfil U 
   links:
-    markdown: "https://www.markdownguide.org/"
-    material: "https://squidfunk.github.io/mkdocs-material/"
-    mkdocs: "https://www.mkdocs.org/"
-    mkdocs_instalacao: "https://www.mkdocs.org/user-guide/installation/"
-    python: "https://www.python.org/"
-    python_download: "https://www.python.org/downloads/"
-    github: "https://github.com/"
-    github_doc_repo: "https://github.com/Eduardo-Milagres/documentacao_gimi"
-    netlify: "https://app.netlify.com/"
-    netlify_doc_link: "https://documentacaogimi.netlify.app/"
+    markdown: https://www.markdownguide.org/
+    material: https://squidfunk.github.io/mkdocs-material/
+    mkdocs: https://www.mkdocs.org/
+    mkdocs_instalacao: https://www.mkdocs.org/user-guide/installation/
+    python: https://www.python.org/
+    python_download: https://www.python.org/downloads/
+    github: https://github.com/
+    github_doc_repo: https://github.com/Eduardo-Milagres/documentacao_gimi
+    github_material: https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+    netlify: https://app.netlify.com/
+    netlify_doc_link: https://documentacaogimi.netlify.app/
+    pymdown_extensions: ttps://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
+    mkdocs_collouts: https://oprypin.github.io/markdown-callouts/index.html
+    padroes_commit: https://github.com/iuricode/padroes-de-commits
   imagens:
     python_instalacao: "![Instalação python](/assets/images/instalacao_python.PNG)"
+    campo_source_control_vscode: "<img src='/assets/images/campo_source_control_vscode.PNG' width='250' height='250'>"
