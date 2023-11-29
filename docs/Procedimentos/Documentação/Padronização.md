@@ -63,3 +63,14 @@ O valor da variável é atribuído após o nome.
     nomes:
         perfil_viga: {{ nomes.perfil_viga }}
 ```
+
+#### Imagens
+Todas as imagens devem ser salvas na pasta **assets/imagens/**.
+Os nomes das imagens não dedvem possuir espaços, use sempre *_* (underline) 
+Os links para imagens devem seguir o padrão *HTML* para otimizar a utilização de recursos.
+
+Os campos **largura** (width) e **altura** (height) são opcionais, se omitidos a imagem manterá o tamanho original.
+
+```html
+<img src='/assets/images/nome_do_arquivo.extensão' width='largura' height='altura'>
+```

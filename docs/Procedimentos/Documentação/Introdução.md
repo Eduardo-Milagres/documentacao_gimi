@@ -80,7 +80,7 @@ No terminal / cmd digite:
     pip install mkdocs-material 
 ```
 
-Para mais detalhes sobre o tema acesse a página do [material para MKDocs]{{ links.github_material }} no [Github]{{ links.github }}
+Para mais detalhes sobre o tema acesse a página do [material para MKDocs]({{ links.github_material }}) no [Github]({{ links.github }}).
 
 # Plugins
 ## MKDocs macros
@@ -116,7 +116,7 @@ Resultado:
 ```
 
 ## pymdown-extension
-O pymdown extension é utilizado para disponibilizar os recursos de {{ links.markdown }} expandido, como ==texto realçado==, ~~texto tachado~~, [ ] ToDo list, entre outros recursos.
+O pymdown extension é utilizado para disponibilizar os recursos de {{ links.markdown }} expandido, como ==texto realçado==, ~~texto tachado~~, entre outros recursos.
 
 ## Instalação
 No terminal / cmd digite:
@@ -204,7 +204,7 @@ Para adicionar os arquivos individualmente no *commit* clique no "+" a direita d
 Para adionar todos os arquivos do campo *change* clique no "+" ao lado do nome do campo.
 
 #### 2.2 **Commit**
-Para fazer o upload dos arquivos no repositório do {{ links.github }}, escreva a mensagem na caixa de texto (*Message*) com o padrão mostrado no tópico sobre [mensagem de commit](#mensagem-de-commit)
+Para fazer o upload dos arquivos no repositório do [github]({{ links.github }}), escreva a mensagem na caixa de texto (*Message*) com o padrão mostrado no tópico sobre [mensagem de commit](#mensagem-de-commit).
 
 ### Mensagem de *Commit*
 Os emojis e categorias padronizados podem ser encontrados na página de [padrões de commit]({{ links.padroes_commit }}) no [github]({{ links.github }}).
