@@ -44,4 +44,5 @@ extra:
     padroes_commit: https://github.com/iuricode/padroes-de-commits
   imagens:
     python_instalacao: "![Instalação python](/assets/images/instalacao_python.PNG)"
-    campo_source_control_vscode: "<img src='/assets/images/campo_source_control_vscode.PNG' width='250' height='250'>"
+    botao_source_control_vscode: "<img src='/assets/images/vscode_source_code_button.png' width='250' height='250'>"
+    botao_stage_change_vscode: "<img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'>"

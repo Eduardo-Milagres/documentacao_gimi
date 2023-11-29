@@ -194,16 +194,14 @@ A mennsagem do commit deve seguir o padrão mostrado no tópico sobre [mensagem 
 **2.1 Adicionando os arquivos alterados**
 No VSCode, no menu lateral clique na ícone de controle de versão (Source Control).
 
-{{ imagens.campo_source_control_vscode }}
+{{ imagens.botao_source_control_vscode }}
 
-Os arquivos alterados serão mostrados no campo *change*
-
-==imagem==
-
+Os arquivos alterados serão mostrados no campo *change*.
 Para adicionar os arquivos individualmente no *commit* clique no "+" a direita do nome do arquivo.
-Para adionar todos os arquivos do campo *change* clique no "+" ao lado do nome do campo.
 
-==imagem==
+{{ imagens.botao_stage_change_vscode }}
+
+Para adionar todos os arquivos do campo *change* clique no "+" ao lado do nome do campo.
 
 #### 2.2 **Commit**
 Para fazer o upload dos arquivos no repositório do {{ links.github }}, escreva a mensagem na caixa de texto (*Message*) com o padrão mostrado no tópico sobre [mensagem de commit](#mensagem-de-commit)
