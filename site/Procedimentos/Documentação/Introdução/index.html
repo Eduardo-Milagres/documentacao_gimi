@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.9">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.78cf6014.min.css">
       
       
 
@@ -213,7 +213,6 @@
   
   
   
-  
     <li class="md-nav__item">
       <a href="../../.." class="md-nav__link">
         
@@ -233,7 +232,6 @@
   
   
     
-  
   
   
     
@@ -274,7 +272,6 @@
     
   
   
-  
     
     
     
@@ -311,7 +308,6 @@
   
   
     
-  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -498,7 +494,6 @@
   
   
   
-  
     <li class="md-nav__item">
       <a href="../Padroniza%C3%A7%C3%A3o/" class="md-nav__link">
         
@@ -524,7 +519,6 @@
             
               
                 
-  
   
   
   
@@ -564,7 +558,6 @@
   
   
   
-  
     <li class="md-nav__item">
       <a href="../../Projeto/Configura%C3%A7%C3%A3o%20inicial/" class="md-nav__link">
         
@@ -597,7 +590,6 @@
     
       
       
-  
   
   
   
@@ -637,7 +629,6 @@
   
   
   
-  
     
     
     
@@ -671,7 +662,6 @@
             
               
                 
-  
   
   
   
@@ -902,41 +892,42 @@ O <a href="https://www.python.org/">python</a> pode ser baixado na página de <a
 <p><img alt="Instalação python" src="/assets/images/instalacao_python.PNG" /></p>
 <h3 id="instalacao-do-mkdocs">Instalação do MKDocs</h3>
 <p>No terminal / cmd digite:</p>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>mkdocs
+<div class="highlight"><pre><span></span><code><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mkdocs
 </code></pre></div>
 <p>Para instruções mais detalhadas e solução de dúvidas, vá ao site de <a href="https://www.mkdocs.org/user-guide/installation/">instalação do MKDocs</a></p>
 <h3 id="utilizacao-do-mkdocs">Utilização do MKDocs</h3>
 <h4 id="criacao-da-documentacao">Criação da documentação</h4>
 <p>Para rodar o https://www.mkdocs.org/, no terminal / cmd rode o comando:</p>
-<div class="highlight"><pre><span></span><code>mkdocs new nome_da_pasta_de_documentação
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>new<span class="w"> </span>nome_da_pasta_de_documentação
 </code></pre></div>
 <p>Para esse projeto foi utilizada a pasta padrão do https://www.mkdocs.org/.</p>
-<div class="highlight"><pre><span></span><code>mkdocs new .
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>new<span class="w"> </span>.
 </code></pre></div>
 <p>Após rodar o comando, o https://www.mkdocs.org/ irá criar uma pasta .docs, onde serão armazenadas todos os arquivos da documentação.</p>
 <h4 id="vizualizacao-da-documentacao">Vizualização da documentação</h4>
 <p>Para vizualizar a documentação criada, rode o comando:</p>
-<div class="highlight"><pre><span></span><code>mkdocs serve
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>serve
 </code></pre></div>
 <p>O comando irá rodar um servidor local (na máquina do usuário) onde a documentação pode ser vizualizada.</p>
 <h4 id="gerar-a-documentacao">Gerar a documentação</h4>
 <p>Para que a documentação seja acessível para todos os usuários ela deve ser independete, ou seja, os usuários que irão vizualizar a documentação não devem se preocupar com os <a href="#pré-requisitos">pré requisitos</a>.<br />
 Para isso, após o término da documentação rode o comando:</p>
-<div class="highlight"><pre><span></span><code>mkdocs build
+<div class="highlight"><pre><span></span><code><span class="w">    </span>mkdocs<span class="w"> </span>build
 </code></pre></div>
 <p>O comando transformará todos os arquivos https://www.markdownguide.org/ em arquivos html que podem ser acessados por todos os navegadores, esses arquivos serão criados na pasta <em>site</em>.</p>
 <h2 id="material">Material</h2>
 <p>O <a href="https://squidfunk.github.io/mkdocs-material/">material</a> é um tema aplicado ao <a href="https://www.mkdocs.org/">MKDocs</a> para alterar o layout das páginas e adicionar algumas funcionalidades. O <a href="https://squidfunk.github.io/mkdocs-material/">material</a> é o tema mais utilizado nas documentações atuais. </p>
 <h3 id="instalacao-do-material">Instalação do Material</h3>
 <p>No terminal / cmd digite:<br />
-<div class="highlight"><pre><span></span><code>pip install mkdocs-material 
+<div class="highlight"><pre><span></span><code><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material<span class="w"> </span>
 </code></pre></div></p>
+<p>Para mais detalhes sobre o tema acesse a página do [material para MKDocs]https://squidfunk.github.io/mkdocs-material/publishing-your-site/ no [Github]https://github.com/</p>
 <h1 id="plugins">Plugins</h1>
 <h2 id="mkdocs-macros">MKDocs macros</h2>
 <p>O MKDcos macros permite a criação de variáveis no arquivo <strong>mkdocs.yml</strong> do <a href="https://www.mkdocs.org/">MKDocs</a> para facilitar futuras manutenções.</p>
 <h3 id="instalacao">Instalação</h3>
 <p>No terminal / cmd digite:<br />
-<div class="highlight"><pre><span></span><code>pip install mkdocs-macros-plugin
+<div class="highlight"><pre><span></span><code><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-macros-plugin
 </code></pre></div></p>
 <h3 id="utilizacao">Utilização</h3>
 <div class="highlight"><pre><span></span><code><span class="nt">extra</span><span class="p">:</span>
@@ -948,16 +939,76 @@ Para isso, após o término da documentação rode o comando:</p>
 <span class="w">        </span><span class="nt">perfil_viga</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">perfil U</span><span class="w"> </span>
 </code></pre></div>
 <p>Referência:<br />
-<div class="highlight"><pre><span></span><code>O {{ no such element: dict object[&#39;perfil_viga&#39;] }}
+<div class="highlight"><pre><span></span><code><span class="w">    </span>O<span class="w"> </span><span class="o">{{</span><span class="w"> </span>no<span class="w"> </span>such<span class="w"> </span>element:<span class="w"> </span>dict<span class="w"> </span>object<span class="o">[</span><span class="s1">&#39;perfil_viga&#39;</span><span class="o">]</span><span class="w"> </span><span class="o">}}</span>
 </code></pre></div></p>
 <p>Resultado:<br />
-<div class="highlight"><pre><span></span><code>O perfil U...
+<div class="highlight"><pre><span></span><code><span class="w">    </span>O<span class="w"> </span>perfil<span class="w"> </span>U...
 </code></pre></div></p>
+<h2 id="pymdown-extension">pymdown-extension</h2>
+<p>O pymdown extension é utilizado para disponibilizar os recursos de https://www.markdownguide.org/ expandido, como <mark>texto realçado</mark>, <del>texto tachado</del>, [ ] ToDo list, entre outros recursos.</p>
+<h2 id="instalacao_1">Instalação</h2>
+<p>No terminal / cmd digite:<br />
+<div class="highlight"><pre><span></span><code><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mdown-extension-plugin
+</code></pre></div></p>
+<h3 id="utilizacao_1">Utilização</h3>
+<p>Para adicionar os recursos desejados, no arquivo .yml, no grupo markdown_extensions, adicione os recursos desejados.<br />
+Para consulta dos recursos e mais informações acesse a <a href="ttps://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/">documentação do PyMDown Exntensions</a></p>
+<h2 id="mkdocs-collouts">MKDocs Collouts</h2>
+<p>O MKDocs Collauts habilita caixas de texto destacadas</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Use &gt; para iniciar o bloco destacado</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Atenção</p>
+<p>Exemplo de callout</p>
+</div>
+<p>Para mais detalhes, acesse a documentação do <a href="https://oprypin.github.io/markdown-callouts/index.html">MKDocs Collouts</a></p>
 <h1 id="disponibilar-a-documentacao-online">Disponibilar a documentação online</h1>
 <p>Todos os arquivos referentes a documentação estão disponíveis no repositório <a href="https://github.com/Eduardo-Milagres/documentacao_gimi">documentacao_gimi</a> do <a href="https://github.com/">github</a>.</p>
 <p>Após qualquer atualização ou ao fim do dia de trabalho é recomendado o upload da documentação no repositório do <a href="https://github.com/">github</a>.</p>
 <p>O <a href="https://github.com/Eduardo-Milagres/documentacao_gimi">repositório do projeto</a> está vinculado com o <a href="https://app.netlify.com/">netlify</a>, um site de hospedagem de sites estáticos, onde a documentação pode ser acessada por qualquer dispositivo.</p>
 <h2 id="atualizacao-da-documentacao">Atualização da documentação</h2>
+<p>Ao terminar a revisão da documentação é necessário atualiza-la no repositório do <a href="https://github.com/">github</a>, a atualização pode ser feita por dois métodos. </p>
+<h3 id="1-metodo-pela-linha-de-comando">1. Método pela linha de comando</h3>
+<p><strong>1.1 Abra o terminal / cmd</strong></p>
+<p>Altere o diretório para a pasta raiz da documentação utilizando o comando <em>cd</em></p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;pasta_da_documentação&quot;</span>
+</code></pre></div>
+<p>Como exemplo imagine que seus arquivos de documentação estão na pasta <em>Documentação GIMI</em> na sua área de trabalho.</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span><span class="nb">cd</span><span class="w"> </span><span class="s2">&quot;C:\Users\user1\Área de Trabalho\Documentação GIMI&quot;</span>
+</code></pre></div>
+<p><strong>1.2 Adicione os arquivos alterados</strong><br />
+Os arquivos são adicionados ao <em>commit</em> com o comando <em>git add</em> e o nomes dos arquivos que serão adicionados com as extensões, para mais de uma arquivo os nomes devem ser separados por um espaço.</p>
+<p>No terminal / cmd digite o comando<br />
+<div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>add<span class="w"> </span>arquivo1.md<span class="w"> </span>arquivo2.md
+</code></pre></div></p>
+<p><strong>1.3. Verificação do Status dos arquivos adicionados</strong><br />
+Para verificar se os arquivos foram adicionados ao <em>commit</em> use o comando <em>status</em>.</p>
+<p>No terminal / cmd digite o comando<br />
+<div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>status
+</code></pre></div></p>
+<p><strong>1.4 Commit</strong><br />
+Para fazer o upload dos arquivos no repositório do <a href="https://github.com/">github</a>, use o comando <em>commit</em><br />
+Para os commits, dese-se seguir o padão mostrado abaixo. </p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;mesagem_do_cimmit&quot;</span>
+</code></pre></div>
+<p>A mennsagem do commit deve seguir o padrão mostrado no tópico sobre <a href="#mensagem-de-commit">mensagem de commit</a>.</p>
+<h3 id="2-metodo-pelo-vscode">2. Método pelo VSCode</h3>
+<p><strong>2.1 Adicionando os arquivos alterados</strong><br />
+No VSCode, no menu lateral clique na ícone de controle de versão (Source Control).</p>
+<p><img src='/assets/images/vscode_source_code_button.png' width='250' height='250'></p>
+<p>Os arquivos alterados serão mostrados no campo <em>change</em>.<br />
+Para adicionar os arquivos individualmente no <em>commit</em> clique no "+" a direita do nome do arquivo.</p>
+<p><img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'></p>
+<p>Para adionar todos os arquivos do campo <em>change</em> clique no "+" ao lado do nome do campo.</p>
+<h4 id="22-commit">2.2 <strong>Commit</strong></h4>
+<p>Para fazer o upload dos arquivos no repositório do https://github.com/, escreva a mensagem na caixa de texto (<em>Message</em>) com o padrão mostrado no tópico sobre <a href="#mensagem-de-commit">mensagem de commit</a></p>
+<h3 id="mensagem-de-commit">Mensagem de <em>Commit</em></h3>
+<p>Os emojis e categorias padronizados podem ser encontrados na página de <a href="https://github.com/iuricode/padroes-de-commits">padrões de commit</a> no <a href="https://github.com/">github</a>.<br />
+A mensagem padrão segue o seguinte layout:</p>
+<div class="highlight"><pre><span></span><code><span class="w">    </span>:emoji:<span class="w"> </span>categoria:<span class="w"> </span><span class="s2">&quot;mensagem de commit&quot;</span>
+</code></pre></div>
 
 
 
@@ -999,7 +1050,7 @@ Para isso, após o término da documentação rode o comando:</p>
     <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.6c14ae12.min.js"></script>
       
     
   </body>
