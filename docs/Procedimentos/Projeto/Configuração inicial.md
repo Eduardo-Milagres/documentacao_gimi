@@ -13,11 +13,11 @@ Após a instalação do software, para configurar o "*Application Options*" da G
 ==imagem==
 
 >[!warning] Importante
-    Esta importação deve ser feita nos seguintes casos:
-    - Pós instalação do Inventor
-    - Erro de banco de dados
-    - Sincronização de todas as máquinas
-    O arquivo de *Application Options* nunca deve ser duplicado
+>   Esta importação deve ser feita nos seguintes casos:
+>   - Pós instalação do Inventor
+>   - Erro de banco de dados
+>   - Sincronização de todas as máquinas
+>   O arquivo de *Application Options* nunca deve ser duplicado
 
 ## Edição do Opções de aplicação GIMI (Manager)
 ### Aba "General"
