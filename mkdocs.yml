@@ -43,6 +43,6 @@ extra:
     mkdocs_collouts: https://oprypin.github.io/markdown-callouts/index.html
     padroes_commit: https://github.com/iuricode/padroes-de-commits
   imagens:
-    python_instalacao: "![Instalação python](/assets/images/instalacao_python.PNG)"
+    python_instalacao: <img src='/assets/images/instalacao_python.png'>
     botao_source_control_vscode: <img src='/assets/images/vscode_source_code_button.png' width='250' height='250'>
     botao_stage_change_vscode: <img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'>
