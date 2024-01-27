@@ -46,3 +46,8 @@ extra:
     python_instalacao: "![Instalação python](/assets/images/instalacao_python.PNG)"
     botao_source_control_vscode: <img src='/assets/images/vscode_source_code_button.png' width='250' height='250'>
     botao_stage_change_vscode: <img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'>
+  docs:
+    IT_02: IT 02 - Programação de puncionadeira
+    R_085: R 085 - Plano de trabalho
+  geral:
+    cad_link_version: 21
