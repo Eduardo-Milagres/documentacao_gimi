@@ -58,3 +58,8 @@ extra:
     caminho_applicationOptions_file_teamWeb:
     caminho_applicationOptions_file_textureFolder:
     projectPadrao: 
+  docs:
+    IT_02: IT 02 - Programação de puncionadeira
+    R_085: R 085 - Plano de trabalho
+  geral:
+    cad_link_version: 21
