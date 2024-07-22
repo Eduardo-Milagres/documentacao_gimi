@@ -15,7 +15,7 @@ Procedimentos
 Documentos
 ```
 
-- As subpoastas não destinadas aos produtos devem ser nomeadas com a primeira letra maiúscula no singular.
+- As subpastas não destinadas aos produtos devem ser nomeadas com a primeira letra maiúscula no singular.
 
 ```bush
 Procedimentos

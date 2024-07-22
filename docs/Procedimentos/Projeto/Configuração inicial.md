@@ -34,3 +34,64 @@ Quando ativado, nos permite 3 opções ao abrir o inventor.
 ##### "*Show My Home on Startup*"
 Quando ativado deixa a área *Home* ativa.
 
+#### Grupo "*Prompting Interaction*"
+1. "*Show command prompting (Dynamic Prompts)*"
+2. "*Show command alias input dialog*"
+
+#### Grupo "*Tooltip Appearance*"
+==Preencher==
+
+### Aba "File"
+#### Campo "*Undo*"
+Caminho para a pasta de arquivos temporários onde o Inventor busca as referências ao utilizar o comando _Undo_ (Desfazer: Ctrl + Z).
+
+```bush
+{{ inventor.caminho_applicationOptions_file_undo }}
+```
+
+#### Campo "*Default Templates*"
+Caminho para a pasta de templates onde o Inventor busca as referências para a criação de arquivos baseados no padrõa estabelecido.
+
+```bush
+{{ inventor.caminho_applicationOptions_file_defaultTemplate }}
+```
+
+#### Campo "*Design Data*"
+Caminho para a pasta de configuração da aba _Design-Inventor_.
+
+```bush
+{{ inventor.caminho_applicationOptions_file_designData }}
+```
+
+#### Campo "*Sketch Symbol Library Folder*"
+Caminho para a pasta de biblioteca de simbolos.
+
+```bush
+{{ inventor.caminho_applicationOptions_file_sketchSymbolLibraryFolder }}
+```
+
+#### Campo "*Default Content Center Files*"
+Caminho para a pasta de elementos de máquina (Content Center).
+
+```bush
+{{ inventor.caminho_applicationOptions_file_defaultContentCenter }}
+```
+
+#### Campo "*Project Folder*"
+Caminho onde serão salvos os atalhos dos _Projects_ (.ipj) criados.
+
+```bush
+{{ inventor.caminho_applicationOptions_file_projectsFolder }}
+```
+
+### Aba "Drawing"
+==imagem==
+
+### Aba "Parts"
+==imagem==
+
+### Aba "Assembly"
+==imagem==
+
+### Aba "Content Center"
+==imagem==
