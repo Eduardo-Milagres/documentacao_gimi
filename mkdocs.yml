@@ -47,6 +47,12 @@ extra:
     botao_source_control_vscode: <img src='/assets/images/vscode_source_code_button.png' width='250' height='250'>
     botao_stage_change_vscode: <img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'>
     botao_manufatura_iapp: <img src='/assets/images/botao_manufatura_iapp.png' width='100' height='100'>
+    autonest_botao_quantidade_do_pedido: <img src='/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
+    autonest_botao_delet_cams_and_cam_layers: <img src='/assets/images/Autonest - Botão Delet CAMs and CAM Layers.png' width='800' height='800'>
+    autonest_botao_auto_corte_todos: <img src='/assets/images/Autonest - Botão auto-corte - todos.png' width='800' height='800'>
+    autonest_checkbox_corte_voador: <img src='/assets/images/Autonest - Checkbox corte voador.png' width='800' height='800'>
+    autonest_corte_comum_e_ph: <img src='/assets/images/Autonest - Corte em comum e administração de PH.png' width='800' height='800'>
+    autonest_botao_executar: <img src='/assets/images/Autonest - Quantidade do pedido - Botão Executar.png' width='800' height='800'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
