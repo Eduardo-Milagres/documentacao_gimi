@@ -15,7 +15,7 @@ CC - [Família](#tabela-cc-familia)
 X - [Material](#tabela-x-material)
 Y - [Bitola](#tabela-y-bitola)
 
-**Exemplo:**
+> [!exemplo] Exemplo:
 > <p style="text-align:center; font-weight:bold"> NP.P.BA.001.01.BA </p>
 > **Produto:** New Piccolo
 > **Aplicação:** Peça
@@ -52,7 +52,7 @@ CC - [Família](#tabela-cc-familia)
 X - [Material](#tabela-x-material)
 Z - [Tipo de chapa](#tabela-z-tipo-de-chapa)
 
-**Exemplo:**
+> [!exemplo]Exemplo:
 > <p style="text-align:center; font-weight:bold"> SK.S.BA.002.00.IZ </p>
 > **Produto:** Skid
 > **Aplicação:** Submontagem
