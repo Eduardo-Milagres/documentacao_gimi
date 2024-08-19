@@ -43,10 +43,10 @@ extra:
     mkdocs_collouts: https://oprypin.github.io/markdown-callouts/index.html
     padroes_commit: https://github.com/iuricode/padroes-de-commits
   imagens:
-    python_instalacao: <img src='/assets/images/instalacao_python.png'>
-    botao_source_control_vscode: <img src='/assets/images/vscode_source_code_button.png' width='250' height='250'>
-    botao_stage_change_vscode: <img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'>
-    botao_manufatura_iapp: <img src='/assets/images/botao_manufatura_iapp.png' width='100' height='100'>
+    python_instalacao: <img src='/assets/images/python - Instalacao.png'>
+    vscode_botao_source_control: <img src='/assets/images/vscode - Botão source control.png' width='250' height='250'>
+    vscode_botao_stage_change: <img src='/assets/images/vscode - Botão stage change.png' width='250' height='250'>
+    iapp_botao_manufatura: <img src='/assets/images/iapp - Botão manufatura.png' width='100' height='100'>
     autonest_botao_quantidade_do_pedido: <img src='/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
     autonest_botao_delet_cams_and_cam_layers: <img src='/assets/images/Autonest - Botão Delet CAMs and CAM Layers.png' width='800' height='800'>
     autonest_botao_auto_corte_todos: <img src='/assets/images/Autonest - Botão auto-corte - todos.png' width='800' height='800'>

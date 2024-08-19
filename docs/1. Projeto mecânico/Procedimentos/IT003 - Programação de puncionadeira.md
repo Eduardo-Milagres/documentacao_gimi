@@ -10,6 +10,7 @@ relacionados: {{ docs.R_085 }}
 *MPF*: Extensão do arquivo de programação de corte do Metalix Autonest.
 *DSP*: Extensão que compacta todos os arquivos .dft contidos em um plano de trabalho.
 *ORD*: Extensão que contém as referências de peças e quantidades de um plano de trabalho.
+*CSV*: "Comma Separated Values" ou "Valores Separados por vírgula" é a extensão utilizada pelo Autonest para criação do relatório de programação. 
  
 ## Programação de puncionadeira
 ### Exportação do Inventor para o Autonest

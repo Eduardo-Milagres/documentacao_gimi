@@ -1,6 +1,6 @@
 ## Passo a passo
 1. Clique em Manufatura no menu lateral
-{{ imagens.botao_manufatura_iapp }}
+{{ imagens.iapp_botao_manufatura }}
 
 OP's - Ordem de Produção
     Origem (número da obra "E-")
