@@ -1,0 +1,1 @@
+- [ ] Arrumar link para página /git/padroes de commit na página /Desenvolvimento mecânico/Introdução
