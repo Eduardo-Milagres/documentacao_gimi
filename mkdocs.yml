@@ -51,8 +51,10 @@ extra:
     autonest_botao_delet_cams_and_cam_layers: <img src='/assets/images/Autonest - Botão Delet CAMs and CAM Layers.png' width='800' height='800'>
     autonest_botao_auto_corte_todos: <img src='/assets/images/Autonest - Botão auto-corte - todos.png' width='800' height='800'>
     autonest_checkbox_corte_voador: <img src='/assets/images/Autonest - Checkbox corte voador.png' width='800' height='800'>
+    autonest_checkbox_corte_rapido: <img src='/assets/images/Autonest - Checkbox corte rápido.png' width='800' height='800'>
     autonest_corte_comum_e_ph: <img src='/assets/images/Autonest - Corte em comum e administração de PH.png' width='800' height='800'>
     autonest_botao_executar: <img src='/assets/images/Autonest - Quantidade do pedido - Botão Executar.png' width='800' height='800'>
+    inventor_esqueleto_ipt: <img src='/assets/images/Inventor - Esqueleto ipt.png' width='800' height='800'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
