@@ -14,6 +14,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `correção` - Commits do tipo correção indicam que seu arquivo commitado está **solucionando um problema** (bug correção), (se relaciona com o PATCH do versionamento semântico).
 
+- `criação` - Commit do tipo criação indica que um novo arquivo foi criado.
+
 - `docs` - Commits do tipo docs indicam que houveram **mudanças na documentação**, como por exemplo no Readme do seu repositório. (Não inclui alterações em arquivos).
 
 - `teste` - Commits do tipo teste são utilizados quando são realizadas **alterações em testes**, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em arqiovos)
@@ -57,6 +59,67 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
   </thead>
  <tbody>
+     <tr>
+      <td>Adição</td>
+      <td>🆕 <code>:new:</code></td>
+      <td><code>adição</code></td>
+    </tr>
+    <tr>
+      <td>Alteração</td>
+      <td>🔃 <code>:arrows_clockwise:</code></td>
+      <td><code>alteração</code></td>
+    </tr>
+     <tr>
+      <td>Criação</td>
+      <td>🎉 <code>:tada:</code></td>
+      <td><code>criação</code></td>
+    </tr>
+    <tr>
+      <td>Correção</td>
+      <td>🐛 <code>:bug:</code></td>
+      <td><code>correção</code></td>
+    </tr>
+    <tr>
+    <tr>
+      <td>Salvamento</td>
+      <td>💾 <code>:floppy_disk:</code></td>
+      <td><code>correção</code></td>
+    </tr>
+    <tr>
+      <td>Adicionando uma feature</td>
+      <td>➕ <code>:heavy_plus_sign:</code></td>
+      <td><code>feat</code></td>
+    </tr>
+    <tr>
+      <td>Removendo uma feature</td>
+      <td>➖ <code>:heavy_minus_sign:</code></td>
+      <td><code>feat</code></td>
+    </tr>
+    <tr>
+      <td>Liberação</td>
+      <td>🚀 <code>:rocket:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+        <td>Refatoração</td>
+        <td>♻️ <code>:recycle:</code></td>
+        <td><code>refatoração</code></td>
+    </tr>
+    <tr>
+      <td>Limpeza de arquivo</td>
+      <td>🧹 <code>:broom:</code></td>
+      <td><code>limpeza</code></td>
+    </tr>
+    <tr>
+      <td>Removerndo um arquivo</td>
+      <td>🗑️ <code>:wastebasket:</code></td>
+      <td><code>remover</code></td>
+    </tr>
+    <tr>
+      <td>---</td>
+      <td>✨ <code>:sparkles:</code></td>
+      <td><code>---</code></td>
+    </tr>
     <tr>
       <td>Acessibilidade</td>
       <td>♿ <code>:wheelchair:</code></td>
@@ -78,19 +141,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td></td>
     </tr>
     <tr>
-      <td>Adicionando uma dependência</td>
-      <td>➕ <code>:heavy_plus_sign:</code></td>
-      <td><code>build</code></td>
-    </tr>
-    <tr>
       <td>Alterações de revisão de arquivo</td>
       <td>👌 <code>:ok_hand:</code></td>
       <td><code>style</code></td>
-    </tr>
-    <tr>
-      <td>Bugcorreção</td>
-      <td>🐛 <code>:bug:</code></td>
-      <td><code>correção</code></td>
     </tr>
     <tr>
       <td>Comentários</td>
@@ -106,11 +159,6 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>Configuração</td>
       <td>🔧 <code>:wrench:</code></td>
       <td><code>tarefa</code></td>
-    </tr>
-    <tr>
-      <td>Liberação</td>
-      <td>🚀 <code>:rocket:</code></td>
-      <td></td>
     </tr>
     <tr>
       <td>Documentação</td>
@@ -138,34 +186,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td><code>tarefa</code></td>
     </tr>
     <tr>
-      <td>Novo recurso</td>
-      <td>✨ <code>:sparkles:</code></td>
-      <td><code>feat</code></td>
-    </tr>
-    <tr>
       <td>Performance</td>
       <td>⚡ <code>:zap:</code></td>
       <td><code>perf</code></td>
-    </tr>
-    <tr>
-        <td>Refatoração</td>
-        <td>♻️ <code>:recycle:</code></td>
-        <td><code>refatoração</code></td>
-    </tr>
-    <tr>
-      <td>Limpeza de arquivo</td>
-      <td>🧹 <code>:broom:</code></td>
-      <td><code>limpeza</code></td>
-    </tr>
-    <tr>
-      <td>Removerndo um arquivo</td>
-      <td>🗑️ <code>:wastebasket:</code></td>
-      <td><code>remover</code></td>
-    </tr>
-    <tr>
-      <td>Removendo uma dependência</td>
-      <td>➖ <code>:heavy_minus_sign:</code></td>
-      <td><code>build</code></td>
     </tr>
     <tr>
       <td>Revertendo mudanças</td>
@@ -184,7 +207,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>Testes</td>
-      <td>🧪 <code>:teste_tube:</code></td>
+      <td>🧪 <code>:test_tube:</code></td>
       <td><code>teste</code></td>
     </tr>
     <tr>
