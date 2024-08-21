@@ -59,11 +59,14 @@ extra:
     inventor_insert_frame_insert: <img src='/assets/images/Inventor - Insert Frame - Insert.png' width='600' height='600'>  
     inventor_insert_frame_seleção_linhas_guia: <img src='/assets/images/Inventor - Insert Frame - Seleção das linhas guia.png' width='600' height='600'>  
     inventor_insert_frame_create_new_frame: <img src='/assets/images/Inventor - Insert Frame - Create new Frame.png' width='400' height='400'>
+    inventor_insert_frame_create_new_frame_nome_esqueleto: <img src='/assets/images/Inventor - Insert Frame - Create new Frame - Nome (esqueleto).png' width='800' height='800'>
+    inventor_insert_frame_create_new_frame_nome_montagem: <img src='/assets/images/Inventor - Insert Frame - Create new Frame - Nome (montagem).png' width='800' height='800'>
     inventor_encaixe_vigas_antes_milter: <img src='/assets/images/Inventor - Encaixe das vigas antes do Milter.png' width='200' height='200'>
     inventor_encaixe_vigas_depois_milter: <img src='/assets/images/Inventor - Encaixe das vigas depois do Milter.png' width='200' height='200'>
     inventor_design_milter: <img src='/assets/images/Inventor - Design - Milter.png' width='600' height='600'>
     inventor_design_trim_extend: <img src='/assets/images/Inventor - Design - Trim_Extend.png' width='600' height='600'>
     inventor_trim_extend: <img src='/assets/images/Inventor - Trim_Extend.png' width='300' height='300'>
+    inventor_viga_antes_trim_extend: <img src='/assets/images/Inventor - Viga antes do Trim_Extend.png' width='300' height='300'>
     inventor_3Dmodel_chamfer: <img src='/assets/images/Inventor - 3D Model - Chamfer.png' width='600' height='600'>
     inventor_chamfer_chamfer: <img src='/assets/images/Inventor - Chamfer - Chamfer.png' width='300' height='300'>
     inventor_viga_antes_chanfro: <img src='/assets/images/Inventor - Viga Antes do Chanfro.png' width='300' height='300'>
@@ -91,3 +94,5 @@ extra:
     R_085: R 085 - Plano de trabalho
   geral:
     cad_link_version: 21
+    chanfro_viga_200: 20x20 mm
+    chanfro_viga_75: 10x10 mm
