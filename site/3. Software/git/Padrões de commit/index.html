@@ -1,0 +1,1510 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Inventor/Project/">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>Padrões de commits 📜 - Documentação GIMI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.fad675c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#padroes-de-commits" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Documentação GIMI" class="md-header__button md-logo" aria-label="Documentação GIMI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentação GIMI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Padrões de commits 📜
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Eduardo-Milagres/documentacao_gimi" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    documentacao_gimi
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentação GIMI" class="md-nav__button md-logo" aria-label="Documentação GIMI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Documentação GIMI
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Eduardo-Milagres/documentacao_gimi" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    documentacao_gimi
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Objetivo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    0. Produtos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            0. Produtos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0.%20Produtos/Nomenclatura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nomenclatura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    SKID
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            SKID
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../0.%20Produtos/SKID/Base/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Elaboração da base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1. Projeto mecânico
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            1. Projeto mecânico
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Procedimentos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Procedimentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1.%20Projeto%20mec%C3%A2nico/Procedimentos/Apontamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apontamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1.%20Projeto%20mec%C3%A2nico/Procedimentos/IT003%20-%20Programa%C3%A7%C3%A3o%20de%20puncionadeira/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT003   Programação de puncionadeira
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2. Desenvolvimento mecânico
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            2. Desenvolvimento mecânico
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Documentação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Documentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2.%20Desenvolvimento%20mec%C3%A2nico/Documenta%C3%A7%C3%A3o/Introdu%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../2.%20Desenvolvimento%20mec%C3%A2nico/Documenta%C3%A7%C3%A3o/Padroniza%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Padronização
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    3. Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            3. Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Autonest
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Autonest
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Autonest/Corte%20voador%20%28fly-cut%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Corte voador (fly cut)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Autonest/Entrada%20de%20corte%20ao%20inv%C3%A9s%20de%20micro-junta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entrada de corte ao invés de micro junta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Autonest/Espessura%20e%20compensa%C3%A7%C3%A3o%20da%20linha%20de%20corte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Espessura e compensação da linha de corte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Inventor
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Inventor
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inventor/Configura%C3%A7%C3%A3o%20inicial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Opções de aplicação GIMI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Inventor/Project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Git
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Git
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Padrões de commits 📜
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Padrões de commits 📜
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tipo-e-descricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo e descrição 🦄
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomendações 🎉
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#complementos-de-commits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complementos de commits 💻
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-de-emojis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões de emojis 💈
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Exemplos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tipo-e-descricao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo e descrição 🦄
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomendações 🎉
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#complementos-de-commits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complementos de commits 💻
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-de-emojis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões de emojis 💈
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Exemplos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="padroes-de-commits">Padrões de commits 📜</h1>
+<p>De acordo com a documentação do <strong><a href="https://www.conventionalcommits.org/pt-br">Conventional Commits</a></strong>, commits semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.</p>
+<p>Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.</p>
+<p>Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, testee...</p>
+<h2 id="tipo-e-descricao">Tipo e descrição 🦄</h2>
+<p>O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.</p>
+<ul>
+<li>
+<p><code>feat</code>- Commits do tipo feat indicam que a alteração está incluindo um <strong>novo recurso</strong> (se relaciona com o MINOR do versionamento semântico).</p>
+</li>
+<li>
+<p><code>correção</code> - Commits do tipo correção indicam que seu arquivo commitado está <strong>solucionando um problema</strong> (bug correção), (se relaciona com o PATCH do versionamento semântico).</p>
+</li>
+<li>
+<p><code>criação</code> - Commit do tipo criação indica que um novo arquivo foi criado.</p>
+</li>
+<li>
+<p><code>docs</code> - Commits do tipo docs indicam que houveram <strong>mudanças na documentação</strong>, como por exemplo no Readme do seu repositório. (Não inclui alterações em arquivos).</p>
+</li>
+<li>
+<p><code>teste</code> - Commits do tipo teste são utilizados quando são realizadas <strong>alterações em testes</strong>, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em arqiovos)</p>
+</li>
+<li>
+<p><code>build</code> - Commits do tipo build são utilizados quando são realizadas modificações em <strong>arquivos de build e dependências</strong>.</p>
+</li>
+<li>
+<p><code>perf</code> - Commits do tipo perf servem para identificar quaisquer alterações de arquivos que estejam relacionadas a <strong>performance</strong>.</p>
+</li>
+<li>
+<p><code>refatoração</code> - Commits do tipo refatoração referem-se a mudanças devido a <strong>refatorações que não alterem sua funcionalidade</strong>, como por exemplo, uma alteração no formato como é processada determinada parte da peça, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a uma revisão.</p>
+</li>
+<li>
+<p><code>tarefa</code> - Commits do tipo tarefa indicam <strong>atualizações de tarefa</strong> de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em arquivos)</p>
+</li>
+<li>
+<p><code>ci</code> - Commits do tipo ci indicam mudanças relacionadas a <strong>integração contínua</strong> (<em>continuous integration</em>).</p>
+</li>
+<li>
+<p><code>raw</code> - Commits to tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.</p>
+</li>
+<li>
+<p><code>remover</code> - Commits do tipo remover indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.</p>
+</li>
+</ul>
+<h2 id="recomendacoes">Recomendações 🎉</h2>
+<ul>
+<li>Adicione um tipo consistente com o título do conteúdo.</li>
+<li>Recomendamos que na primeira linha deve ter no máximo 4 palavras.</li>
+<li>Para descrever com detalhes, usar a descrição do commit.</li>
+<li>Usar um emoji no início da mensagem de commit representando sobre o commit.</li>
+<li>Os links precisam ser adicionados em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados.</li>
+</ul>
+<h2 id="complementos-de-commits">Complementos de commits 💻</h2>
+<ul>
+<li><strong>Rodapé:</strong> informação sobre o revisor e número do card no Trello ou Jira. Exemplo: Reviewed-by: Elisandro Mello Refs #133</li>
+<li><strong>Corpo:</strong> descrições mais precisas do que está contido no commit, apresentando impactos e os motivos pelos quais foram empregadas as alterações no arquivo, como também instruções essenciais para intervenções futuras. Exemplo: see the issue for details on typos correçãoed.</li>
+<li><strong>Descrições:</strong> uma descrição sucinta da mudança. Exemplo: correção da legenda da peça.</li>
+</ul>
+<h2 id="padroes-de-emojis">Padrões de emojis 💈</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Tipo do commit</th>
+      <th>Emoji</th>
+      <th>Palavra-chave</th>
+    </tr>
+  </thead>
+ <tbody>
+     <tr>
+      <td>Adição</td>
+      <td>🆕 <code>:new:</code></td>
+      <td><code>adição</code></td>
+    </tr>
+    <tr>
+      <td>Alteração</td>
+      <td>🔃 <code>:arrows_clockwise:</code></td>
+      <td><code>alteração</code></td>
+    </tr>
+     <tr>
+      <td>Criação</td>
+      <td>🎉 <code>:tada:</code></td>
+      <td><code>criação</code></td>
+    </tr>
+    <tr>
+      <td>Correção</td>
+      <td>🐛 <code>:bug:</code></td>
+      <td><code>correção</code></td>
+    </tr>
+    <tr>
+    <tr>
+      <td>Salvamento</td>
+      <td>💾 <code>:floppy_disk:</code></td>
+      <td><code>correção</code></td>
+    </tr>
+    <tr>
+      <td>Adicionando uma feature</td>
+      <td>➕ <code>:heavy_plus_sign:</code></td>
+      <td><code>feat</code></td>
+    </tr>
+    <tr>
+      <td>Removendo uma feature</td>
+      <td>➖ <code>:heavy_minus_sign:</code></td>
+      <td><code>feat</code></td>
+    </tr>
+    <tr>
+      <td>Liberação</td>
+      <td>🚀 <code>:rocket:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+        <td>Refatoração</td>
+        <td>♻️ <code>:recycle:</code></td>
+        <td><code>refatoração</code></td>
+    </tr>
+    <tr>
+      <td>Limpeza de arquivo</td>
+      <td>🧹 <code>:broom:</code></td>
+      <td><code>limpeza</code></td>
+    </tr>
+    <tr>
+      <td>Removerndo um arquivo</td>
+      <td>🗑️ <code>:wastebasket:</code></td>
+      <td><code>remover</code></td>
+    </tr>
+    <tr>
+      <td>---</td>
+      <td>✨ <code>:sparkles:</code></td>
+      <td><code>---</code></td>
+    </tr>
+    <tr>
+      <td>Acessibilidade</td>
+      <td>♿ <code>:wheelchair:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Adicionando um teste</td>
+      <td>✅ <code>:white_check_mark:</code></td>
+      <td><code>teste</code></td>
+    </tr>
+    <tr>
+      <td>Atualizando a versão de um submódulo</td>
+      <td>⬆️ <code>:arrow_up:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Retrocedendo a versão de um submódulo</td>
+      <td>⬇️ <code>:arrow_down:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Alterações de revisão de arquivo</td>
+      <td>👌 <code>:ok_hand:</code></td>
+      <td><code>style</code></td>
+    </tr>
+    <tr>
+      <td>Comentários</td>
+      <td>💡 <code>:bulb:</code></td>
+      <td><code>docs</code></td>
+    </tr>
+    <tr>
+      <td>Commit inicial</td>
+      <td>🎉 <code>:tada:</code></td>
+      <td><code>init</code></td>
+    </tr>
+    <tr>
+      <td>Configuração</td>
+      <td>🔧 <code>:wrench:</code></td>
+      <td><code>tarefa</code></td>
+    </tr>
+    <tr>
+      <td>Documentação</td>
+      <td>📚 <code>:books:</code></td>
+      <td><code>docs</code></td>
+    </tr>
+    <tr>
+      <td>Em progresso</td>
+      <td>🚧 <code>:construction:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Infraestrutura</td>
+      <td>🧱 <code>:bricks:</code></td>
+      <td><code>ci</code></td>
+    </tr>
+    <tr>
+      <td>Lista de ideias (tasks)</td>
+      <td>🔜 <code> :soon: </code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mover/Renomear</td>
+      <td>🚚 <code>:truck:</code></td>
+      <td><code>tarefa</code></td>
+    </tr>
+    <tr>
+      <td>Performance</td>
+      <td>⚡ <code>:zap:</code></td>
+      <td><code>perf</code></td>
+    </tr>
+    <tr>
+      <td>Revertendo mudanças</td>
+      <td>💥 <code>:boom:</code></td>
+      <td><code>correção</code></td>
+    </tr>
+    <tr>
+      <td>Tag de versão</td>
+      <td>🔖 <code>:bookmark:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Teste de aprovação</td>
+      <td>✔️ <code>:heavy_check_mark:</code></td>
+      <td><code>teste</code></td>
+    </tr>
+    <tr>
+      <td>Testes</td>
+      <td>🧪 <code>:test_tube:</code></td>
+      <td><code>teste</code></td>
+    </tr>
+    <tr>
+      <td>Texto</td>
+      <td>📝 <code>:pencil:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tratamento de erros</td>
+      <td>🥅 <code>:goal_net:</code></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="exemplos">💻 Exemplos</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Comando Git</th>
+      <th>Resultado no GitHub</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>
+        <code>git commit -m ":tada: Commit inicial"</code>
+      </td>
+      <td>🎉 Commit inicial</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":books: docs: Atualização do README"</code>
+      </td>
+      <td>📚 docs: Atualização do README</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bug: correção: Furação da base não coincide com furação do fechamento"</code>
+      </td>
+      <td>🐛 correção: Furação da base não coincide com furação do fechamento</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":sparkles: feat: Furação para luminária"</code>
+      </td>
+      <td>✨ feat: Furação para luminária</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":recycle: refatoração: Troca do furo feito em cut pelo furo com hole"</code>
+      </td>
+      <td>♻️ refatoração: Troca do furo feito em cut pelo furo com hole</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":zap: perf: Melhoria no tempo de resposta"</code>
+      </td>
+      <td>⚡ perf: Melhoria no tempo de resposta</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":boom: correção: Revertendo mudanças ineficientes"</code>
+      </td>
+      <td>💥 correção: Revertendo mudanças ineficientes</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":teste_tube: teste: Criando novo testee"</code>
+      </td>
+      <td>🧪 teste: Criando novo teste</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bulb: docs: Comentários sobre a peça X"</code>
+      </td>
+      <td>💡 docs: Comentários sobre a peça X</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":wastebasket: remover: removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"</code>
+      </td>
+      <td>🗑️ remover: removerndo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="principais-comandos-do-git">Principais comandos do Git 📜</h1>
+<ul>
+<li>
+<p><code>git clone url-do-repositorio-no-github</code> - Clona um repositório remoto existente no GitHub para o seu ambiente local.</p>
+</li>
+<li>
+<p><code>git init</code> - Inicializa um novo repositório Git no diretório atual.</p>
+</li>
+<li>
+<p><code>git add .</code> - Adiciona todos os arquivos e alterações no diretório atual para a área de stage (preparando-os para o commit).</p>
+</li>
+<li>
+<p><code>git commit -m "mensagem do commit"</code> - Registra as alterações adicionadas na área de stage com uma mensagem descritiva sobre o que foi modificado. </p>
+</li>
+<li>
+<p><code>git branch -M main</code> - Renomeia a branch atual (master) para main. O -M é usado para forçar a renomeação, movendo a branch se necessário.</p>
+</li>
+<li>
+<p><code>git remote add origin https://github.com/usuario/nome-do-repositorio.git</code> - Adiciona um repositório remoto chamado origin ao repositório local. Use <code>https://github.com/usuario</code> para configurar o repositório remoto com HTTPS ou <code>git@github.com:usuario</code> para configurar com SSH.</p>
+</li>
+<li>
+<p><code>git push -u origin main</code> - Envia os commits da branch main do repositório local para o repositório remoto origin e define main como a branch padrão para futuros push e pull. O -u (ou --set-upstream) configura a branch upstream para facilitar os próximos comandos git push e git pull e eliminar a necessidade de especificar a branch.</p>
+</li>
+<li>
+<p><code>git remote add origin git@github.com:usuario/projeto.git</code> <code>git branch -M main</code> <code>git push -u origin main</code> - Quando você já tem um repositório local e quer conectá-lo a um repositório remoto no GitHub, adiciona o repositório remoto, renomeia a branch principal para main e envia os commits iniciais.</p>
+</li>
+<li>
+<p><code>git fetch</code> - Busca todas as atualizações do repositório remoto sem integrá-las à branch atual. Isso atualiza as referências remotas.</p>
+</li>
+<li>
+<p><code>git pull origin main</code>  - Atualiza a branch local main com as mudanças do repositório remoto origin. Combina git fetch e git merge.</p>
+</li>
+<li>
+<p><code>git push --force-with-lease</code> - Forma mais segura de forçar o envio de alterações locais para o repositório remoto. Verifica se não houve alterações feitas por outros colaboradores desde sua última atualização local, evitando sobrescrever acidentalmente o trabalho de outros.</p>
+</li>
+<li>
+<p><code>git revert id_do_commit_que_vai_ser_revertido</code> - Cria um novo commit que desfaz as alterações feitas pelo commit especificado, preservando o histórico. Útil para desfazer mudanças de forma segura sem reescrever o histórico.</p>
+</li>
+<li>
+<p><code>git reset --hard id_do_commit_anterior_ao_que_vai_ser_apagado</code> - Redefine o repositório para o estado do commit especificado, apagando todas as mudanças feitas após esse commit. Ideal para uso local. Para sincronizar remotamente, use <code>git push --force-with-lease</code> posteriormente.</p>
+</li>
+<li>
+<p><code>git commit --amend -m "mensagem_reescrita"</code> - Altera a mensagem do último commit. Após usar este comando, sincronize remotamente com <code>git push --force-with-lease</code>.</p>
+</li>
+</ul>
+<h1 id="glossario">Glossário 📖</h1>
+<ul>
+<li>
+<p><code>fork</code> - Cópia de um repositório para a sua própria conta no GitHub. Isso cria um novo repositório em sua conta que é independente do original, permitindo que você faça alterações sem afetar o repositório original.</p>
+</li>
+<li>
+<p><code>pull request</code> - Mecanismo usado para submeter alterações propostas ao repositório original. Um pull request é uma solicitação para que os mantenedores do projeto revisem e potencialmente incorporem as alterações. O pull request passará por um processo de avaliação e pode ser aceito ou rejeitado.</p>
+</li>
+</ul>
+<h1 id="referencia">Referência</h1>
+<p>Este arquivo foi copiado e modificado para atender necessidades internas, seguindo a referência do repositório <a href="https://github.com/iuricode/padroes-de-commits">padrões de commit</a>.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>
