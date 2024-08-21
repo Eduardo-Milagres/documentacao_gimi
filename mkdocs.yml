@@ -22,7 +22,7 @@ plugins:
   - macros
   - search
   - callouts
-
+use_directory_urls: false
 extra:
   nomes:
     github_doc_repo: documentacao_gimi
@@ -47,7 +47,7 @@ extra:
     vscode_botao_source_control: <img src='/assets/images/vscode - Botão source control.png' width='250' height='250'>
     vscode_botao_stage_change: <img src='/assets/images/vscode - Botão stage change.png' width='250' height='250'>
     iapp_botao_manufatura: <img src='/assets/images/iapp - Botão manufatura.png' width='100' height='100'>
-    autonest_botao_quantidade_do_pedido: <img src='/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
+    autonest_botao_quantidade_do_pedido: <img src='/docs/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
     autonest_botao_delet_cams_and_cam_layers: <img src='/assets/images/Autonest - Botão Delet CAMs and CAM Layers.png' width='800' height='800'>
     autonest_botao_auto_corte_todos: <img src='/assets/images/Autonest - Botão auto-corte - todos.png' width='800' height='800'>
     autonest_checkbox_corte_voador: <img src='/assets/images/Autonest - Checkbox corte voador.png' width='800' height='800'>
@@ -55,6 +55,23 @@ extra:
     autonest_corte_comum_e_ph: <img src='/assets/images/Autonest - Corte em comum e administração de PH.png' width='800' height='800'>
     autonest_botao_executar: <img src='/assets/images/Autonest - Quantidade do pedido - Botão Executar.png' width='800' height='800'>
     inventor_esqueleto_ipt: <img src='/assets/images/Inventor - Esqueleto ipt.png' width='800' height='800'>
+    inventor_design_insert_frame: <img src='/assets/images/Inventor - Design - Insert Frame.png' width='800' height='800'>
+    inventor_insert_frame_insert: <img src='/assets/images/Inventor - Insert Frame - Insert.png' width='600' height='600'>  
+    inventor_insert_frame_seleção_linhas_guia: <img src='/assets/images/Inventor - Insert Frame - Seleção das linhas guia.png' width='600' height='600'>  
+    inventor_insert_frame_create_new_frame: <img src='/assets/images/Inventor - Insert Frame - Create new Frame.png' width='400' height='400'>
+    inventor_encaixe_vigas_antes_milter: <img src='/assets/images/Inventor - Encaixe das vigas antes do Milter.png' width='200' height='200'>
+    inventor_encaixe_vigas_depois_milter: <img src='/assets/images/Inventor - Encaixe das vigas depois do Milter.png' width='200' height='200'>
+    inventor_design_milter: <img src='/assets/images/Inventor - Design - Milter.png' width='600' height='600'>
+    inventor_design_trim_extend: <img src='/assets/images/Inventor - Design - Trim_Extend.png' width='600' height='600'>
+    inventor_trim_extend: <img src='/assets/images/Inventor - Trim_Extend.png' width='300' height='300'>
+    inventor_3Dmodel_chamfer: <img src='/assets/images/Inventor - 3D Model - Chamfer.png' width='600' height='600'>
+    inventor_chamfer_chamfer: <img src='/assets/images/Inventor - Chamfer - Chamfer.png' width='300' height='300'>
+    inventor_viga_antes_chanfro: <img src='/assets/images/Inventor - Viga Antes do Chanfro.png' width='300' height='300'>
+    inventor_viga_depois_chanfro: <img src='/assets/images/Inventor - Viga Depois do Chanfro.png' width='300' height='300'>
+    inventor_design_notche: <img src='/assets/images/Inventor - Design - Notche.png' width='600' height='600'>
+    inventor_encaixe_vigas_antes_notche: <img src='/assets/images/Inventor - Encaixe da viga antes do Notche (montagem).png' width='300' height='300'>
+    inventor_encaixe_vigas_depois_notche: <img src='/assets/images/Inventor - Encaixe da viga depois do Notche (montagem).png' width='300' height='300'>
+    inventor_viga_depois_notche_peça: <img src='/assets/images/Inventor - Viga Depois do Notche (peça).png' width='300' height='300'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
@@ -66,6 +83,9 @@ extra:
     caminho_applicationOptions_file_teamWeb:
     caminho_applicationOptions_file_textureFolder:
     projectPadrao: 
+    norma_viga: DIN
+    familia_viga: PERFIL U-GIMI - DOBRADO
+    material_viga: Steel ASTM A36(GIMI)
   docs:
     IT_02: IT 02 - Programação de puncionadeira
     R_085: R 085 - Plano de trabalho
