@@ -1,6 +1,6 @@
 # Elaboração da base
 ## 1. Criação do esqueleto (.ipt)
-1.1 Crie uma nova peça e salve na pasta MONTAGEM/BASE_ com o nome de acordo com a [nomenclatura](../Nomenclatura.md) e _"-ESQUELETO"_ após o nome.
+1.1 Crie uma nova peça e salve na pasta _MONTAGEM/BASE_ com o nome de acordo com a [nomenclatura](../Nomenclatura.md) e _"-ESQUELETO"_ após o nome.
 1.2 Crie um Sketch e selecione o plano de trabalho desejado
 1.3 Desenho o layout da base 
 {{ imagens.inventor_esqueleto_ipt }}
@@ -74,7 +74,7 @@
 
 ## 5. Encaixes
 ### Milter
-- Para realizar o encaixe das vigas da extremidade, use o comando _Notche_ na guia _Design_.
+- Para realizar o encaixe das vigas da extremidade, use o comando _Milter_ na guia _Design_.
 
 {{ imagens.inventor_design_milter }}
 
@@ -111,7 +111,7 @@
 {{ imagens.inventor_viga_antes_chanfro }}{{ imagens.inventor_viga_depois_chanfro }}
 
 #### Notche
-- Para realizar o encaixe das vigas das vigas fixadas na parte interna de outras vigas use o comando _Notche_ na guia _Design_.
+- Para realizar o encaixe das vigas fixadas na parte interna de outras vigas use o comando _Notche_ na guia _Design_.
 
 {{ imagens.inventor_design_notche }}
 
