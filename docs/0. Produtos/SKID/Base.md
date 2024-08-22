@@ -93,6 +93,7 @@
 ### Vigas internas
 - Vigas internas são aquelas que se encaixam entre as abas de outras vigas
 #### Chanfro
+- Os chanfros são necessários para o escoamento da galvanização ou da tinta em caso de imersão e para compensar o raio interno das vigas de conexão.
 - Para realizar o encaixe das vigas fixadas na parte interna de outras vigas abra a peça, na aba _3D Model_ clique em _Chamfer_.
 
 {{ imagens.inventor_3Dmodel_chamfer }}
