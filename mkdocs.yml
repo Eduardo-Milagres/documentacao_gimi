@@ -61,6 +61,13 @@ extra:
     inventor_insert_frame_create_new_frame: <img src='/assets/images/Inventor - Insert Frame - Create new Frame.png' width='400' height='400'>
     inventor_insert_frame_create_new_frame_nome_esqueleto: <img src='/assets/images/Inventor - Insert Frame - Create new Frame - Nome (esqueleto).png' width='800' height='800'>
     inventor_insert_frame_create_new_frame_nome_montagem: <img src='/assets/images/Inventor - Insert Frame - Create new Frame - Nome (montagem).png' width='800' height='800'>
+    inventor_insert_frame_create_new_frame_nome_montagem: <img src='/assets/images/Inventor - Insert Frame - Create new Frame - Nome (montagem).png' width='800' height='800'>
+    inventor_frame_member_naming: <img src='/assets/images/Inventor - Frame Member Naming.png' width='600' height='600'>
+    inventor_frame_member_naming_nome: <img src='/assets/images/Inventor - Frame Member Naming - Nome.png' width='600' height='600'>
+    inventor_nomenclatura_viga_contorno: <img src='/assets/images/Inventor - Nomenclatura viga - Contorno.png' width='600' height='600'>
+    inventor_nomenclatura_viga_longitudinal: <img src='/assets/images/Inventor - Nomenclatura viga - Longitudinal.png' width='600' height='600'>
+    inventor_nomenclatura_viga_transversal: <img src='/assets/images/Inventor - Nomenclatura viga - Transversal.png' width='600' height='600'>
+    inventor_nomenclatura_viga_apoio: <img src='/assets/images/Inventor - Nomenclatura viga - Apoio.png' width='600' height='600'>
     inventor_encaixe_vigas_antes_milter: <img src='/assets/images/Inventor - Encaixe das vigas antes do Milter.png' width='200' height='200'>
     inventor_encaixe_vigas_depois_milter: <img src='/assets/images/Inventor - Encaixe das vigas depois do Milter.png' width='200' height='200'>
     inventor_design_milter: <img src='/assets/images/Inventor - Design - Milter.png' width='600' height='600'>
@@ -89,6 +96,11 @@ extra:
     norma_viga: DIN
     familia_viga: PERFIL U-GIMI - DOBRADO
     material_viga: Steel ASTM A36(GIMI)
+    nome_viga_contorno: SK.P.BA.001.XX.I
+    nome_viga_longitudinal: SK.P.BA.002.XX.I
+    nome_viga_apoio: SK.P.BA.003.XX.I
+    nome_viga_transversal: SK.P.BA.004.XX.I
+
   docs:
     IT_02: IT 02 - Programação de puncionadeira
     R_085: R 085 - Plano de trabalho
@@ -96,3 +108,5 @@ extra:
     cad_link_version: 21
     chanfro_viga_200: 20x20 mm
     chanfro_viga_75: 10x10 mm
+    codigo_montagem_frame: SK.S.BA.002.01.I
+    codigo_esqueleto_frame: SK.S.BA.002.01.I - ESQUELETO
