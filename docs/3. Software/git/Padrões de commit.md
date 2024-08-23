@@ -101,6 +101,16 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td></td>
     </tr>
     <tr>
+      <td>Supressão/Visibilidade ativo</td>
+      <td>⚫ <code>:black_circle:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Supressão/Visibilidade desativada</td>
+      <td>⚪ <code>:white_circle:</code></td>
+      <td></td>
+    </tr>
+    <tr>
         <td>Refatoração</td>
         <td>♻️ <code>:recycle:</code></td>
         <td><code>refatoração</code></td>
