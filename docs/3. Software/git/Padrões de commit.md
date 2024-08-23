@@ -111,6 +111,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>:estado:</td>
     </tr>
     <tr>
+      <td>Ensaio</td>
+      <td>📄 <code>:page_facing_up:</code></td>
+      <td>:ensaio:</td>
+    </tr>
+    <tr>
         <td>Refatoração</td>
         <td>♻️ <code>:recycle:</code></td>
         <td><code>refatoração</code></td>
