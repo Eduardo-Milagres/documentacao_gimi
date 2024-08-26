@@ -41,7 +41,7 @@ OBRA - Número da obra (E-XXXX)
 As siglas usadas em cada campo pode ser consultada nas tabelas abaixo
 
 ### Base de {{ nomes.perfil_viga }}
-<p style="text-align:center; font-weight:bold"> AA.B.CC.112.00.XZ </p>
+<p style="text-align:center; font-weight:bold"> AA.B.CC.112.00.X </p>
 
 AA - [Produto](#tabela-aa-produto)
 B - [Aplicação](#tabela-b-aplicacao)
@@ -50,7 +50,6 @@ CC - [Família](#tabela-cc-familia)
 2 - [Especificação](#tabela-2-especificacao)
 00 - Número da variável
 X - [Material](#tabela-x-material)
-Z - [Tipo de chapa](#tabela-z-tipo-de-chapa)
 
 > [!exemplo]Exemplo:
 > <p style="text-align:center; font-weight:bold"> SK.S.BA.002.00.IZ </p>
