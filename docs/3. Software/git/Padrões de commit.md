@@ -83,7 +83,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Salvamento</td>
       <td>💾 <code>:floppy_disk:</code></td>
-      <td><code>correção</code></td>
+      <td></td>
     </tr>
     <tr>
       <td>Adicionando uma feature</td>
@@ -103,17 +103,17 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Supressão/Visibilidade ativo</td>
       <td>⚫ <code>:black_circle:</code></td>
-      <td>:estado:</td>
+      <td>estado</td>
     </tr>
     <tr>
       <td>Supressão/Visibilidade desativada</td>
       <td>⚪ <code>:white_circle:</code></td>
-      <td>:estado:</td>
+      <td>estado</td>
     </tr>
     <tr>
       <td>Ensaio</td>
       <td>📄 <code>:page_facing_up:</code></td>
-      <td>:ensaio:</td>
+      <td>ensaio</td>
     </tr>
     <tr>
         <td>Refatoração</td>
