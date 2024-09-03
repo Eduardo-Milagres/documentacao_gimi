@@ -64,6 +64,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>🆕 <code>:new:</code></td>
       <td><code>adição</code></td>
     </tr>
+     <tr>
+      <td>Remoção</td>
+      <td>❌ <code>:x:</code></td>
+      <td><code>remoção</code></td>
+    </tr>
     <tr>
       <td>Alteração</td>
       <td>🔃 <code>:arrows_clockwise:</code></td>
