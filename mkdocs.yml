@@ -90,6 +90,22 @@ extra:
     inventor_encaixe_vigas_antes_notche: <img src='/assets/images/Inventor - Encaixe da viga antes do Notche (montagem).png' width='300' height='300'>
     inventor_encaixe_vigas_depois_notche: <img src='/assets/images/Inventor - Encaixe da viga depois do Notche (montagem).png' width='300' height='300'>
     inventor_viga_depois_notche_peça: <img src='/assets/images/Inventor - Viga Depois do Notche (peça).png' width='300' height='300'>
+    inventor_tools_add_ins: <img src='/assets/images/Inventor - Tools - Add-Ins.png' width='800' height='800'>
+    inventor_add_ins_manager: <img src='/assets/images/Inventor - Add-Ins - Add-In Manager.png' width='300' height='300'>
+    inventor_stress_analysis: <img src='/assets/images/Inventor - Envioronments - Stress Analysis.png' width='800' height='800'>
+    inventor_create_simulation: <img src='/assets/images/Inventor - Stress Analysis - Create Simulation.png' width='800' height='800'>
+    inventor_create_new_simulation : <img src='/assets/images/Inventor - Create Simulation - Create New Simulation.png' width='300' height='300'>
+    inventor_assign : <img src='/assets/images/Inventor - Stress Analysis - Assign.png' width='800' height='800'>
+    inventor_assign_materials : <img src='/assets/images/Inventor - Assign - Assign Materials.png' width='500' height='500'>
+    inventor_fixed : <img src='/assets/images/Inventor - Stress Analysis - Fixed.png' width='800' height='800'>
+    inventor_fixed_constraint : <img src='/assets/images/Inventor - Fixed - Fixed Constraint.png' width='500' height='500'>
+    inventor_gravity : <img src='/assets/images/Inventor - Stress Analysis - Gravity.png' width='800' height='800'>
+    inventor_gravity_gravity : <img src='/assets/images/Inventor - Gravity - Gravity.png' width='400' height='400'>
+    inventor_force : <img src='/assets/images/Inventor - Stress Analysis - Force.png' width='800' height='800'>
+    inventor_force_force : <img src='/assets/images/Inventor - Force - Force.png' width='400' height='400'>
+    inventor_mesh_view : <img src='/assets/images/Inventor - Stress Analysis - Mesh View.png' width='800' height='800'>
+    inventor_simulate : <img src='/assets/images/Inventor - Stress Analysis - Simulate.png' width='800' height='800'>
+    inventor_simulate_simulate : <img src='/assets/images/Inventor - Simulate - Simulate.png' width='400' height='400'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
