@@ -18,11 +18,16 @@ markdown_extensions:
   - pymdownx.mark  # Suporte para marcações
   - pymdownx.tilde  # Suporte a tachado
   - pymdownx.highlight  # Suporte a código
+  - pymdownx.arithmatex:
+      generic: true
 plugins:
   - macros
   - search
   - callouts
 use_directory_urls: false
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra:
   nomes:
     github_doc_repo: documentacao_gimi
@@ -94,18 +99,22 @@ extra:
     inventor_add_ins_manager: <img src='/assets/images/Inventor - Add-Ins - Add-In Manager.png' width='300' height='300'>
     inventor_stress_analysis: <img src='/assets/images/Inventor - Envioronments - Stress Analysis.png' width='800' height='800'>
     inventor_create_simulation: <img src='/assets/images/Inventor - Stress Analysis - Create Simulation.png' width='800' height='800'>
-    inventor_create_new_simulation : <img src='/assets/images/Inventor - Create Simulation - Create New Simulation.png' width='300' height='300'>
-    inventor_assign : <img src='/assets/images/Inventor - Stress Analysis - Assign.png' width='800' height='800'>
-    inventor_assign_materials : <img src='/assets/images/Inventor - Assign - Assign Materials.png' width='500' height='500'>
-    inventor_fixed : <img src='/assets/images/Inventor - Stress Analysis - Fixed.png' width='800' height='800'>
-    inventor_fixed_constraint : <img src='/assets/images/Inventor - Fixed - Fixed Constraint.png' width='500' height='500'>
-    inventor_gravity : <img src='/assets/images/Inventor - Stress Analysis - Gravity.png' width='800' height='800'>
-    inventor_gravity_gravity : <img src='/assets/images/Inventor - Gravity - Gravity.png' width='400' height='400'>
-    inventor_force : <img src='/assets/images/Inventor - Stress Analysis - Force.png' width='800' height='800'>
-    inventor_force_force : <img src='/assets/images/Inventor - Force - Force.png' width='400' height='400'>
-    inventor_mesh_view : <img src='/assets/images/Inventor - Stress Analysis - Mesh View.png' width='800' height='800'>
-    inventor_simulate : <img src='/assets/images/Inventor - Stress Analysis - Simulate.png' width='800' height='800'>
-    inventor_simulate_simulate : <img src='/assets/images/Inventor - Simulate - Simulate.png' width='400' height='400'>
+    inventor_create_new_simulation: <img src='/assets/images/Inventor - Create Simulation - Create New Simulation.png' width='300' height='300'>
+    inventor_assign: <img src='/assets/images/Inventor - Stress Analysis - Assign.png' width='800' height='800'>
+    inventor_assign_materials: <img src='/assets/images/Inventor - Assign - Assign Materials.png' width='500' height='500'>
+    inventor_fixed: <img src='/assets/images/Inventor - Stress Analysis - Fixed.png' width='800' height='800'>
+    inventor_fixed_constraint: <img src='/assets/images/Inventor - Fixed - Fixed Constraint.png' width='500' height='500'>
+    inventor_gravity: <img src='/assets/images/Inventor - Stress Analysis - Gravity.png' width='800' height='800'>
+    inventor_gravity_gravity: <img src='/assets/images/Inventor - Gravity - Gravity.png' width='400' height='400'>
+    inventor_force: <img src='/assets/images/Inventor - Stress Analysis - Force.png' width='800' height='800'>
+    inventor_force_force: <img src='/assets/images/Inventor - Force - Force.png' width='400' height='400'>
+    inventor_mesh_view: <img src='/assets/images/Inventor - Stress Analysis - Mesh View.png' width='800' height='800'>
+    inventor_simulate: <img src='/assets/images/Inventor - Stress Analysis - Simulate.png' width='800' height='800'>
+    inventor_simulate_simulate: <img src='/assets/images/Inventor - Simulate - Simulate.png' width='400' height='400'>
+    inventor_maximum_minimum_value: <img src='/assets/images/Inventor - Stress Analysis - Maximum e Minimum value.png' width='600' height='600'>
+    inventor_visualizacao_probe: <img src='/assets/images/Inventor - Stress Analysis - Visualização do Probe.png' width='600' height='600'>
+    inventor_probe: <img src='/assets/images/Inventor - Stress Analysis - Probe.png' width='300' height='300'>
+    inventor_visualizacao_probe_customizada: <img src='/assets/images/Inventor - Stress Analysis - Visualização do Probe Personalizada.png' width='600' height='600'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
@@ -133,3 +142,4 @@ extra:
     chanfro_viga_75: 10x10 mm
     codigo_montagem_frame: SK.S.BA.002.01.I
     codigo_esqueleto_frame: SK.S.BA.002.01.I - ESQUELETO
+    tensao_escoamento_A36: 250 MPA

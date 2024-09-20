@@ -84,3 +84,32 @@
 {{ imagens.inventor_simulate_simulate }}
 
 ## 8. Análise dos resultados
+### Probe - Valores máximo e mínimo 
+- Para visualizar os valores máximos e mínimos do resultado, na gui _Stress Analysis_ clique em _Maximum value_ para ver o valor máximo e em _Minimum value_ para ver o valor mínimo.
+
+{{ imagens.inventor_maximum_minimum_value }}
+
+{{ imagens.inventor_visualizacao_probe }}
+
+### Probe - Personalizada
+- Na guia _Stress Analysis_ clique em _Probe_.
+
+{{ imagens.inventor_probe }}
+
+- Selecione o ponto em que deseja visualizar o resultado.
+
+{{ imagens.inventor_visualizacao_probe_customizada }}
+
+### Von Misses Stress
+- A tensão de Von Misses indica as tensões da estrutura.
+
+>[!warning] Atenção
+>O valor máximo de tensão não pode ultrapassar a tensão de escolamento do aço ({{ geral.tensao_escoamento_A36 }}).
+
+### Displacement
+- Indica o deslocamento da estrutura.
+
+>[!warning] Atenção
+>O valor máximo de deslocamento não pode ser superior ao comprimento da viga divido por 300 ($\frac{Comp. \, viga}{300}$), conforme NBR 8800.
+
+### Safety factor

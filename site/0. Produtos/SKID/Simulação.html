@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="Base.html">
+        <link rel="prev" href="Modelos.html">
       
       
         <link rel="next" href="../../1.%20Projeto%20mec%C3%A2nico/Procedimentos/Apontamento.html">
@@ -352,6 +352,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="Modelos.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelos de SKID
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -493,6 +514,57 @@
       8. Análise dos resultados
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="8. Análise dos resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#probe-valores-maximo-e-minimo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Probe - Valores máximo e mínimo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#probe-personalizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Probe - Personalizada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#von-misses-stress" class="md-nav__link">
+    <span class="md-ellipsis">
+      Von Misses Stress
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displacement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Displacement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Safety factor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1207,6 +1279,57 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="8. Análise dos resultados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#probe-valores-maximo-e-minimo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Probe - Valores máximo e mínimo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#probe-personalizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Probe - Personalizada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#von-misses-stress" class="md-nav__link">
+    <span class="md-ellipsis">
+      Von Misses Stress
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displacement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Displacement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#safety-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Safety factor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1316,6 +1439,38 @@
 </ul>
 <p><img src='/assets/images/Inventor - Simulate - Simulate.png' width='400' height='400'></p>
 <h2 id="8-analise-dos-resultados">8. Análise dos resultados</h2>
+<h3 id="probe-valores-maximo-e-minimo">Probe - Valores máximo e mínimo</h3>
+<ul>
+<li>Para visualizar os valores máximos e mínimos do resultado, na gui <em>Stress Analysis</em> clique em <em>Maximum value</em> para ver o valor máximo e em <em>Minimum value</em> para ver o valor mínimo.</li>
+</ul>
+<p><img src='/assets/images/Inventor - Stress Analysis - Maximum e Minimum value.png' width='600' height='600'></p>
+<p><img src='/assets/images/Inventor - Stress Analysis - Visualização do Probe.png' width='600' height='600'></p>
+<h3 id="probe-personalizada">Probe - Personalizada</h3>
+<ul>
+<li>Na guia <em>Stress Analysis</em> clique em <em>Probe</em>.</li>
+</ul>
+<p><img src='/assets/images/Inventor - Stress Analysis - Probe.png' width='300' height='300'></p>
+<ul>
+<li>Selecione o ponto em que deseja visualizar o resultado.</li>
+</ul>
+<p><img src='/assets/images/Inventor - Stress Analysis - Visualização do Probe Personalizada.png' width='600' height='600'></p>
+<h3 id="von-misses-stress">Von Misses Stress</h3>
+<ul>
+<li>A tensão de Von Misses indica as tensões da estrutura.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Atenção</p>
+<p>O valor máximo de tensão não pode ultrapassar a tensão de escolamento do aço (250 MPA).</p>
+</div>
+<h3 id="displacement">Displacement</h3>
+<ul>
+<li>Indica o deslocamento da estrutura.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Atenção</p>
+<p>O valor máximo de deslocamento não pode ser superior ao comprimento da viga divido por 300 (<span class="arithmatex">\(\frac{Comp. \, viga}{300}\)</span>), conforme NBR 8800.</p>
+</div>
+<h3 id="safety-factor">Safety factor</h3>
 
 
 
@@ -1358,6 +1513,10 @@
     
     
       <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
