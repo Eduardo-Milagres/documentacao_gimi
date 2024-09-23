@@ -1,14 +1,25 @@
 # Elaboração da base
 ## 1. Criação do esqueleto (.ipt)
-1.1 Crie uma nova peça e salve na pasta _MONTAGEM/BASE_ com o nome de acordo com a [nomenclatura](../Nomenclatura.md) e _"-ESQUELETO"_ após o nome.
-1.2 Crie um Sketch e selecione o plano de trabalho desejado
-1.3 Desenho o layout da base 
+- Crie uma nova peça usando o template _Standart GIMI (mm).ipt_.
+
+{{ imagens.inventor_create_new_file_standart_gimi_mm }}
+
+- Salve o arquivo na pasta _MONTAGEM/BASE_ com o nome de acordo com a [nomenclatura](../Nomenclatura.md) e _"-ESQUELETO"_ após o nome.
+
+{{ imagens.inventor_salvar_como_esqueleto }}
+
+- Crie um Sketch e selecione o plano de trabalho desejado
+- Desenho o layout da base 
+
 {{ imagens.inventor_esqueleto_ipt }}
 
 ## 2. Criação da montagem (.iam)
 > [!tip] Dica
 > Crie o arquivo de montagem com solda pois na etapa de simulação será necessário.
-2.1. Inserir o esqueleto na montagem
+> 
+> {{ imagens.inventor_create_new_file_weldment_gimi_ansi_mm }}
+
+- Insira o esqueleto na montagem
 
 ## 3. Insirer as vigas em "{{ nomes.perfil_viga }}"
 - Na aba _Design_ clique em _Insert Frame_

@@ -115,6 +115,9 @@ extra:
     inventor_visualizacao_probe: <img src='/assets/images/Inventor - Stress Analysis - Visualização do Probe.png' width='600' height='600'>
     inventor_probe: <img src='/assets/images/Inventor - Stress Analysis - Probe.png' width='300' height='300'>
     inventor_visualizacao_probe_customizada: <img src='/assets/images/Inventor - Stress Analysis - Visualização do Probe Personalizada.png' width='600' height='600'>
+    inventor_create_new_file_standart_gimi_mm: <img src='/assets/images/Inventor - Create New File - Standart GIMI (mm).png' width='600' height='600'>
+    inventor_create_new_file_weldment_gimi_ansi_mm: <img src='/assets/images/Inventor - Create New File - Weldment GIMI (ANSI - mm).png' width='600' height='600'>
+    inventor_salvar_como_esqueleto: <img src='/assets/images/Inventor - Salvar como - Esqueleto.png' width='600' height='600'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
