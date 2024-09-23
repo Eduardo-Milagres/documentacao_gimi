@@ -346,6 +346,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `git commit --amend -m "mensagem_reescrita"` - Altera a mensagem do último commit. Após usar este comando, sincronize remotamente com `git push --force-with-lease`.
 
+- `git branch -d branch_name` - Deleta a branch especificada
+
 # Glossário 📖
 
 - `fork` - Cópia de um repositório para a sua própria conta no GitHub. Isso cria um novo repositório em sua conta que é independente do original, permitindo que você faça alterações sem afetar o repositório original.
