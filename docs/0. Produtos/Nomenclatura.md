@@ -52,7 +52,7 @@ CC - [Família](#tabela-cc-familia)
 X - [Material](#tabela-x-material)
 
 > [!exemplo]Exemplo:
-> <p style="text-align:center; font-weight:bold"> SK.S.BA.002.00.IZ </p>
+> <p style="text-align:center; font-weight:bold"> SK.S.BA.002.00.I </p>
 > **Produto:** Skid
 > **Aplicação:** Submontagem
 > **Família:** Base
@@ -60,7 +60,6 @@ X - [Material](#tabela-x-material)
 > **Especificação:** 2 inversores
 > **Variável:** 01
 > **Material:** ASTM A36
-> **Tipo de chapa:** Zincada
 
 ### Tabela AA - Produto
 | Sigla | Produto | Classe de tensão |
