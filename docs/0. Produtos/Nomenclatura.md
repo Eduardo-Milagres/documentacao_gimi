@@ -52,7 +52,7 @@ CC - [Família](#tabela-cc-familia)
 X - [Material](#tabela-x-material)
 
 > [!exemplo]Exemplo:
-> <p style="text-align:center; font-weight:bold"> SK.S.BA.002.00.I </p>
+> <p style="text-align:center; font-weight:bold"> SK.S.BA.002.01.I </p>
 > **Produto:** Skid
 > **Aplicação:** Submontagem
 > **Família:** Base
