@@ -55,7 +55,10 @@ extra:
 
     iapp_botao_manufatura: <img src='/assets/images/iapp - Botão manufatura.png' width='100' height='100'>
 
-    autonest_botao_quantidade_do_pedido: <img src='/docs/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
+    drive_compartilhar: <img src='/assets/images/Drive - Compartilhar.png' width='400' height='400'>
+    drive_compartilhar_compartilhar: <img src='/assets/images/Drive - Compartilhar - Compartilhar.png' width='300' height='300'>
+  
+    autonest_botao_quantidade_do_pedido: <img src='/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
     autonest_botao_delet_cams_and_cam_layers: <img src='/assets/images/Autonest - Botão Delet CAMs and CAM Layers.png' width='800' height='800'>
     autonest_botao_auto_corte_todos: <img src='/assets/images/Autonest - Botão auto-corte - todos.png' width='800' height='800'>
     autonest_checkbox_corte_voador: <img src='/assets/images/Autonest - Checkbox corte voador.png' width='800' height='800'>
