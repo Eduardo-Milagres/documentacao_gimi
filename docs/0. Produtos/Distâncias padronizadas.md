@@ -1,4 +1,5 @@
-# Distância entre fases
+# Distâncias padronizadas
+## Distância entre fases
 
 | Barramento | 15 kV | 24 kV | 36 kV |
 | ---------- | ----- | ----- | ----- |
