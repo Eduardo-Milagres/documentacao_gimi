@@ -104,7 +104,7 @@
 - A tensão de Von Misses indica as tensões da estrutura.
 
 >[!warning] Atenção
->O valor máximo de tensão não pode ultrapassar a tensão de escolamento do aço ({{ geral.tensao_escoamento_A36 }}).
+>O valor máximo de tensão não pode ultrapassar a tensão de escolamento do aço ($\sigma_{esc} = ${{ geral.tensao_escoamento_A36 }}).
 
 ### Displacement
 - Indica o deslocamento da estrutura.
@@ -113,3 +113,32 @@
 >O valor máximo de deslocamento não pode ser superior ao comprimento da viga divido por 300 ($\frac{Comp. \, viga}{300}$), conforme NBR 8800.
 
 ### Safety factor
+- Indica o fator de segurança da estrutura em relação a tensão de escoamento do material ($\sigma_{esc}$).
+- O valor é obtido pela razão entre a tensão de escoamento do material ($\sigma_{esc}$) e a tensão máxima de Von Misses ($\sigma_{máx}$).
+
+>[!warning] Atenção
+> Valores abaixo de 1 indicam que a estrutura não suportara as cargas aplicadas e entrará em colpso.
+
+$$ FS = \frac{\sigma_{esc}}{\sigma_{máx}}$$
+
+## 9. Gerar o relatório
+- Na guia _Stress Analysis_ clique em _Report_.
+
+{{ imagens.inventor_report }}
+
+- Na janela _Report_ em _Report Title_ altere o título do relatório.
+- Desmarque a caixa de seleção do logo.
+- No campo _Summary_ adicine os comentários necessários.
+
+>[!tip] Dica
+> Para o SKID é recomendado adicionar no campo _Summary_ as massas dos blocos e o modelo do transfordor.
+
+- No grupo _Report Location_ em _Filename_ digite o nome desejado para o arquivo do relatório.
+
+{{ imagens.inventor_report_report }}
+
+
+- Em _Path_ clique em `...` e selecione o local onde o relatório sera salvo.
+
+{{ imagens.inventor_report_report_path }}
+

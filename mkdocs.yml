@@ -121,6 +121,9 @@ extra:
     inventor_create_new_file_standart_gimi_mm: <img src='/assets/images/Inventor - Create New File - Standart GIMI (mm).png' width='600' height='600'>
     inventor_create_new_file_weldment_gimi_ansi_mm: <img src='/assets/images/Inventor - Create New File - Weldment GIMI (ANSI - mm).png' width='600' height='600'>
     inventor_salvar_como_esqueleto: <img src='/assets/images/Inventor - Salvar como - Esqueleto.png' width='600' height='600'>
+    inventor_report: <img src='/assets/images/Inventor - Stress Analysis - Report.png' width='600' height='600'>
+    inventor_report_report: <img src='/assets/images/Inventor - Report - Report.png' width='300' height='300'>
+    inventor_report_report_path: <img src='/assets/images/Inventor - Report - Report - Path.png' width='300' height='300'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
