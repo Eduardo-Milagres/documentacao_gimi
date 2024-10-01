@@ -69,7 +69,15 @@ extra:
 
     drive_compartilhar: <img src='/assets/images/Drive - Compartilhar.png' width='400' height='400'>
     drive_compartilhar_compartilhar: <img src='/assets/images/Drive - Compartilhar - Compartilhar.png' width='300' height='300'>
+
+    google_contatos: <img src='/assets/images/Google - Contatos.png' width='300' height='300'>
+    google_contatos_marcadores_add: <img src='/assets/images/Contatos - Marcadores - +.png' width='300' height='300'>
+    google_contatos_marcadores_criar_marcador: <img src='/assets/images/Contatos - Marcadores - Criar marcador.png' width='300' height='300'>
+    google_contatos_marcadores_marcador: <img src='/assets/images/Contatos - Marcadores - Marcador.png' width='300' height='300'>
+    google_contatos_marcadores_exemplo: <img src='/assets/images/Contatos - Marcadores - Exemplo.png' width='300' height='300'>
   
+    google_gmail_grupos_exemplo: <img src='/assets/images/Gmail - Grupos - Exemplo.png' width='300' height='300'>
+    
     autonest_botao_quantidade_do_pedido: <img src='/assets/images/Autonest - Botão quantidade do pedido.png' width='800' height='800'>
     autonest_botao_delet_cams_and_cam_layers: <img src='/assets/images/Autonest - Botão Delet CAMs and CAM Layers.png' width='800' height='800'>
     autonest_botao_auto_corte_todos: <img src='/assets/images/Autonest - Botão auto-corte - todos.png' width='800' height='800'>
