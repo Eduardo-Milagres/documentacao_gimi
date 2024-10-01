@@ -121,6 +121,18 @@
 
 $$ FS = \frac{\sigma_{esc}}{\sigma_{máx}}$$
 
+### Centro de gravidade (Baricentro)
+- É o ponto geométrico onde a força peso é aplicada.
+
+>[!warning] Atenção
+>Para içamento é importante que o centro de gravidade esteja o mais centralizado possível com os olhais de içamento.
+
+- Na aba _View_ clique em _Centro de Gravidade_
+
+{{ imagens.inventor_view_center_of_gravity }}
+
+{{ imagens.inventor_view_center_of_gravity_visualizacao }}
+
 ## 9. Gerar o relatório
 - Na guia _Stress Analysis_ clique em _Report_.
 
@@ -141,4 +153,5 @@ $$ FS = \frac{\sigma_{esc}}{\sigma_{máx}}$$
 - Em _Path_ clique em `...` e selecione o local onde o relatório sera salvo.
 
 {{ imagens.inventor_report_report_path }}
+
 
