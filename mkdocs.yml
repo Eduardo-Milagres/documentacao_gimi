@@ -89,6 +89,8 @@ extra:
     autonest_linha_de_corte_grossa_na_chapa_20: <img src='/assets/images/Autonest - linha de corte grossa na chapa 20.png' width='400' height='400'>
     autonest_botão_tabela_de_corte: <img src='/assets/images/Autonest - Botão tabela de corte.png' width='400' height='400'>
     autonest_tabela_de_tecnologia_de_corte: <img src='/assets/images/Autonest - Tabela de tecnologia de corte.png' width='400' height='400'>
+    
+    excel_colunas_perfil_produtivo: <img src='/assets/images/Excel - Colunas - Perfil Produtivo.png' width='600' height='600'>
 
     inventor_esqueleto_ipt: <img src='/assets/images/Inventor - Esqueleto ipt.png' width='800' height='800'>
     inventor_design_insert_frame: <img src='/assets/images/Inventor - Design - Insert Frame.png' width='800' height='800'>
@@ -146,6 +148,15 @@ extra:
     inventor_report_report_path: <img src='/assets/images/Inventor - Report - Report - Path.png' width='300' height='300'>
     inventor_view_center_of_gravity: <img src='/assets/images/Inventor - View - Center of Gravity.png' width='500' height='500'>
     inventor_view_center_of_gravity_visualizacao: <img src='/assets/images/Inventor - View - Center of Gravity - Visualização.png' width='500' height='500'>
+    inventor_montagem_perfil_produtivo: <img src='/assets/images/Inventor - Arquivo montagem - Perfil produtivo.png' width='300' height='300'>
+    inventor_arquivos_montagem_perfil_produtivo: <img src='/assets/images/Inventor - Montagem - Base_ - Perfil produtividade.png' width='800' height='800'>
+    inventor_arquivos_todas_as_pecas_perfil_produtivo: <img src='/assets/images/Inventor - Arquivo todas as pecas - Perfil produtivo.png' width='800' height='800'>
+    inventor_Assemble_bill_of_materials: <img src='/assets/images/Inventor - Assemble - Bill of materials.png' width='800' height='800'>
+    inventor_bill_of_materials_bill_of_materials: <img src='/assets/images/Inventor - Bill of materials - Bill of materials.png' width='500' height='500'>
+    inventor_bill_of_materials_conf_descricao: <img src='/assets/images/Inventor - Bill of materials - Conf. Descricao.png' width='500' height='500'>
+    inventor_bill_of_materials_sort_itens: <img src='/assets/images/Inventor - Bill of materials - Sort Itens.png' width='500' height='500'>
+    inventor_sort_itens_sort: <img src='/assets/images/Inventor - Sort by - Sort.png' width='300' height='300'>
+    inventor_export_bill_of_materials: <img src='/assets/images/Inventor - Bill of materials - Export Bill of Materials.png' width='500' height='500'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
@@ -156,6 +167,7 @@ extra:
     caminho_applicationOptions_file_defaultVBAProject:
     caminho_applicationOptions_file_teamWeb:
     caminho_applicationOptions_file_textureFolder:
+    caminho_conf_descricao: Z:\DOCUMENTO\Parametro\Templates
     projectPadrao: 
     norma_viga: DIN
     familia_viga: PERFIL U-GIMI - DOBRADO
@@ -164,6 +176,7 @@ extra:
     nome_viga_longitudinal: SK.P.BA.002.XX.I
     nome_viga_apoio: SK.P.BA.003.XX.I
     nome_viga_transversal: SK.P.BA.004.XX.I
+    nome_conf_descricao: CONF. DESCRICAO
   docs:
     IT_02: IT 02 - Programação de puncionadeira
     R_085: R 085 - Plano de trabalho
