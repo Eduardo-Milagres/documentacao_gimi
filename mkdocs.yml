@@ -59,6 +59,8 @@ extra:
     pymdown_extensions: https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
     mkdocs_collouts: https://oprypin.github.io/markdown-callouts/index.html
     padroes_commit: https://github.com/iuricode/padroes-de-commits
+    
+    drive_pasta_perfil_produtivo: https://drive.google.com/drive/folders/1-aYzc9nZosEA9XSRNpmjktKUdzqSYOga?usp=drive_link
   imagens:
     python_instalacao: <img src='/assets/images/python - Instalacao.png'>
 
@@ -69,6 +71,9 @@ extra:
 
     drive_compartilhar: <img src='/assets/images/Drive - Compartilhar.png' width='400' height='400'>
     drive_compartilhar_compartilhar: <img src='/assets/images/Drive - Compartilhar - Compartilhar.png' width='300' height='300'>
+    drive_fazer_uma_copia: <img src='/assets/images/Drive - Fazer uma cópia.png' width='300' height='300'>
+    drive_renomear: <img src='/assets/images/Drive - Renomear.png' width='300' height='300'>
+    drive_exemplo_perfil_produtivo: <img src='/assets/images/Drive - Perfil Produtivo - Exemplo nome.png' width='300' height='300'>
 
     google_contatos: <img src='/assets/images/Google - Contatos.png' width='300' height='300'>
     google_contatos_marcadores_add: <img src='/assets/images/Contatos - Marcadores - +.png' width='300' height='300'>
@@ -91,6 +96,13 @@ extra:
     autonest_tabela_de_tecnologia_de_corte: <img src='/assets/images/Autonest - Tabela de tecnologia de corte.png' width='400' height='400'>
     
     excel_colunas_perfil_produtivo: <img src='/assets/images/Excel - Colunas - Perfil Produtivo.png' width='600' height='600'>
+    excel_edicao_localizar_e_substituir: <img src='/assets/images/Excel - Edição - Localizar e Selecionar.png' width='800' height='800'>
+    excel_localizar_e_selecionar_substituir: <img src='/assets/images/Excel - Localizar e Selecionar - Substituir.png' width='600' height='600'>
+    
+    sheets_perfil_produtivo_exemplo_tabela_peças: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela peças.png' width='600' height='600'>
+    sheets_perfil_produtivo_exemplo_tabela_kits_submontagem: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem.png' width='600' height='600'>
+    sheets_perfil_produtivo_exemplo_tabela_kits_submontagem_nome: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem com nome.png' width='600' height='600'>
+    sheets_perfil_produtivo_exemplo_tabela_kits_submontagem_familia: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem com familia.png' width='600' height='600'>
 
     inventor_esqueleto_ipt: <img src='/assets/images/Inventor - Esqueleto ipt.png' width='800' height='800'>
     inventor_design_insert_frame: <img src='/assets/images/Inventor - Design - Insert Frame.png' width='800' height='800'>
@@ -154,9 +166,13 @@ extra:
     inventor_Assemble_bill_of_materials: <img src='/assets/images/Inventor - Assemble - Bill of materials.png' width='800' height='800'>
     inventor_bill_of_materials_bill_of_materials: <img src='/assets/images/Inventor - Bill of materials - Bill of materials.png' width='500' height='500'>
     inventor_bill_of_materials_conf_descricao: <img src='/assets/images/Inventor - Bill of materials - Conf. Descricao.png' width='500' height='500'>
+    inventor_bill_of_materials_conf_quant: <img src='/assets/images/Inventor - Bill of materials - Conf. Quant.png' width='500' height='500'>
     inventor_bill_of_materials_sort_itens: <img src='/assets/images/Inventor - Bill of materials - Sort Itens.png' width='500' height='500'>
     inventor_sort_itens_sort: <img src='/assets/images/Inventor - Sort by - Sort.png' width='300' height='300'>
     inventor_export_bill_of_materials: <img src='/assets/images/Inventor - Bill of materials - Export Bill of Materials.png' width='500' height='500'>
+    inventor_bill_of_materials_colunas_submontagem: <img src='/assets/images/Inventor - Bill of Materials - Colunas - Submontagens.png' width='500' height='500'>
+    inventor_bill_of_materials_structure: <img src='/assets/images/Inventor - Bill of materials - Bill of materials - Structure.png' width='500' height='500'>
+    inventor_bill_of_materials_structure_colunas: <img src='/assets/images/Inventor - Bill of materials - Bill of materials - Structure - Colunas.png' width='500' height='500'>
   inventor:
     caminho_applicationOptions_file_undo: 
     caminho_applicationOptions_file_defaultTemplate: 
@@ -167,7 +183,7 @@ extra:
     caminho_applicationOptions_file_defaultVBAProject:
     caminho_applicationOptions_file_teamWeb:
     caminho_applicationOptions_file_textureFolder:
-    caminho_conf_descricao: Z:\DOCUMENTO\Parametro\Templates
+    caminho_conf: Z:\DOCUMENTO\Parametro\Templates
     projectPadrao: 
     norma_viga: DIN
     familia_viga: PERFIL U-GIMI - DOBRADO
@@ -177,6 +193,7 @@ extra:
     nome_viga_apoio: SK.P.BA.003.XX.I
     nome_viga_transversal: SK.P.BA.004.XX.I
     nome_conf_descricao: CONF. DESCRICAO
+    nome_conf_quant: CONF. QUANT.
   docs:
     IT_02: IT 02 - Programação de puncionadeira
     R_085: R 085 - Plano de trabalho
