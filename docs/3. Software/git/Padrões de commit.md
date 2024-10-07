@@ -126,6 +126,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <td><code>refatoração</code></td>
     </tr>
     <tr>
+        <td>Replace</td>
+        <td>➰ <code>:curly_loop:</code></td>
+        <td><code>Substituição</code></td>
+    </tr>
+    <tr>
       <td>Limpeza de arquivo</td>
       <td>🧹 <code>:broom:</code></td>
       <td><code>limpeza</code></td>
