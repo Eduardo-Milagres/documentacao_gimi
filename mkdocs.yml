@@ -61,6 +61,7 @@ extra:
     padroes_commit: https://github.com/iuricode/padroes-de-commits
     
     drive_pasta_perfil_produtivo: https://drive.google.com/drive/folders/1-aYzc9nZosEA9XSRNpmjktKUdzqSYOga?usp=drive_link
+    drive_cd_elementos_maquina: https://docs.google.com/spreadsheets/d/1NP1aCA0aWQ_G4Uu67juD1INNvO01_gY-UljCbWmvboQ/edit?usp=drive_link
   imagens:
     python_instalacao: <img src='/assets/images/python - Instalacao.png'>
 
@@ -103,6 +104,9 @@ extra:
     sheets_perfil_produtivo_exemplo_tabela_kits_submontagem: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem.png' width='600' height='600'>
     sheets_perfil_produtivo_exemplo_tabela_kits_submontagem_nome: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem com nome.png' width='600' height='600'>
     sheets_perfil_produtivo_exemplo_tabela_kits_submontagem_familia: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem com familia.png' width='600' height='600'>
+    sheets_perfil_produtivo_configurações_permitir_acesso: <img src='/assets/images/Sheets - Perfil produtivo - Configurações - Permitir acesso.png' width='600' height='600'>
+    sheets_CD_elementos_máquina_exemplo: <img src='/assets/images/Sheets - CD - Elementos de máquina - Exemplo.png' width='600' height='600'>
+    sheets_perfil_produtivo_kits_elementos_maquina_exemplo: <img src='/assets/images/Sheets - Perfil produtivo - Kits - Elementos de máquina - Exemplo.png' width='600' height='600'>
 
     inventor_esqueleto_ipt: <img src='/assets/images/Inventor - Esqueleto ipt.png' width='800' height='800'>
     inventor_design_insert_frame: <img src='/assets/images/Inventor - Design - Insert Frame.png' width='800' height='800'>

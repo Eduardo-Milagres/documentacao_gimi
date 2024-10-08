@@ -15,6 +15,11 @@
 
 {{ imagens.drive_exemplo_perfil_produtivo }}
 
+### 1.1 Habilitar permissões
+- Na aba _Configurações_, nas células com erro de referência `#REF!`, clique na célula e permita o acesso.
+
+{{ imagens.sheets_perfil_produtivo_configurações_permitir_acesso }}
+
 ## 2. Criar montagem por família
 - Crie uma montagem para cada família de peça.
 - Salve a montagem na pasta de peças da família com o nome da família seguido de `_`.
@@ -162,3 +167,18 @@
 - Na coluna _Família_ insira o nome da família que está sendo cadastrada.
 
 {{ imagens.sheets_perfil_produtivo_exemplo_tabela_kits_submontagem_familia }}
+
+## 8. Elementos de máquina
+### 8.1 Cadastro de novos elementos de máquina
+- Todos os elementos de máquinas utilizados nos perfis produtivos estão centralizados na planilha [CD - Elementos de máquina]({{ links.drive_cd_elementos_maquina }}).
+
+- Na coluna _Descrição_ adicione a nomenclatura de acordo com o elemento.
+- Na coluna _Código_ adicoine o código iAPP do elemento.
+
+{{ imagens.sheets_CD_elementos_máquina_exemplo }}
+
+### 8.2 Cadastro dos elementos de máquinas nos Kits
+- Na aba _Kits_, na coluna _Composição_ adicione os elementos de máquina conforme cada submontagem.
+- Na coluna _Quant. (un.)_ ensira a quantidade usada no item cadastrado para cada elemento de máquina.
+
+{{ imagens.sheets_perfil_produtivo_kits_elementos_maquina_exemplo }}
