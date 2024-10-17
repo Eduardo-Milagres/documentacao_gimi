@@ -179,6 +179,9 @@ extra:
     inventor_bill_of_materials_structure_colunas: <img src='/assets/images/Inventor - Bill of materials - Bill of materials - Structure - Colunas.png' width='500' height='500'>
     inventor_constrint_settings: <img src='/assets/images/Inventor - Sketch - Constraint Settings.png' width='800' height='800'>
     inventor_constraint_settings_constraint_settings: <img src='/assets/images/Inventor - Constraint Settings - Constraint Settings.png' width='400' height='400'>
+    
+    barramento_tipo_contato_paralelo: <img src='/assets/images/Barramento - Tipo de contato - Paralelo.png' width='400' height='400'>
+    barramento_tipo_contato_perpendicular: <img src='/assets/images/Barramento - Tipo de contato - Perpendicular.png' width='400' height='400'>
   videos:
     inventor_inserir_valor_adicionar_cota: <iframe src='/assets/videos/Inventor - Inserir valor ao adicionar cota.mp4' width='1000' height='300'></iframe>
   inventor:
