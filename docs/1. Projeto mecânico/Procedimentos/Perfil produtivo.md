@@ -7,7 +7,7 @@
 {{ imagens.drive_fazer_uma_copia }}
 
 - Clique com o botão direito sobre o arquivo criado "_Cópia de PP - Template_".
-- Clique em _Renomear_ ou utilize o atalho _CTRL + Alt + E_.
+- Clique em _Renomear_ ou utilize o atalho ++ctrl+alt+e++.
 
 {{ imagens.drive_renomear }}
 
@@ -69,7 +69,7 @@
 ## 5. Cadastro de peças
 - Abra o arquivo _BOM_P_ criado na seção [Gerar o checklist de peças (BOM_P)](#gerar-o-checklist-de-peças-bom_p).
 
-- Na seção _Edição_ clique em _Localizar e selecionar_ e selecione a opção _Susbtituir_ ou utilize o atalho _CTRL + U_.
+- Na seção _Edição_ clique em _Localizar e selecionar_ e selecione a opção _Susbtituir_ ou utilize o atalho ++ctrl+u++.
 
 {{ imagens.excel_edicao_localizar_e_substituir }}
 

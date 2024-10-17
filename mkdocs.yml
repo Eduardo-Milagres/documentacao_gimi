@@ -30,6 +30,7 @@ markdown_extensions:
   - pymdownx.mark  # Suporte para marcações
   - pymdownx.tilde  # Suporte a tachado
   - pymdownx.highlight  # Suporte a código
+  - pymdownx.keys # Suporte a representação
   - pymdownx.arithmatex:
       generic: true
 plugins:
