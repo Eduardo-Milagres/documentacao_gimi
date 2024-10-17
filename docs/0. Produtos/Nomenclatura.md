@@ -63,7 +63,7 @@ X - [Material](#tabela-x-material)
 
 ### Tabela AA - Produto
 | Sigla | Produto | Classe de tensão |
-| ----- | ------- | ---------------- |
+| :---: | :-----: | :--------------: |
 | AR | Armário | Baixa |
 | NU | Cabine de barramento | Baixa |
 | QE | Quadro de embutir | Baixa |
@@ -82,14 +82,14 @@ X - [Material](#tabela-x-material)
 
 ### Tabela B - Aplicação
 | Sigla | Aplicação |
-| ----- | -------- |
+| :---: | :-------: |
 | M | Montagem |
 | P | Peça |
 | S | Submontagem |
 
 ### Tabela CC - Família
 | Sigla | Família |
-| ----- | ------- |
+| :---: | :-----: |
 | BA | Base |
 | BT | Batente |
 | CC | Caixa de comando |
@@ -109,7 +109,7 @@ X - [Material](#tabela-x-material)
 
 ### Tabela X - Material
 | Sigla | Material |
-| ----- | -------- |
+| :---: | :------: |
 | A | SAE 1008 |
 | B | NBR 7008 ZC |
 | C | NBR 7008 PRÉ PINTADO |
@@ -122,7 +122,7 @@ X - [Material](#tabela-x-material)
 
 ### Tabela Y - Bitola
 | Sigla | Bitola |
-| ----- | ------ |
+| :---: | :----: |
 | A | 12 |
 | B | 14 |
 | C | 16 |
@@ -131,13 +131,13 @@ X - [Material](#tabela-x-material)
 
 ### Tabela Z - Tipo de chapa
 | Sigla | Bitola |
-| ----- | ------ |
+| :---: | :----: |
 | F | COMUM |
 | Z | ZINCADA |
 
 ### Tabela 11 - Utilização da base
 | Numeração | Utilização |
-| ----- | ---------- |
+| :-------: | :--------: |
 | 00 | Inversores |
 | 01 | Transformador |
 | 02 | Transformador + Armário |
@@ -150,7 +150,7 @@ X - [Material](#tabela-x-material)
 > Para base de inversores utilizar a quantidade de inversores
 
 | Numeração | Especificação |
-| ----- | ------ |
+| :-------: | :-----------: |
 | 0 | Transformador a seco |
 | 1 | Transformador a óleo |
 | 2 | Transformador a óleo com contenção |

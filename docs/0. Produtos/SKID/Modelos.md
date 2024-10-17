@@ -1,7 +1,7 @@
 # Modelos de SKID
 
 | Modelo | Inversor | QGBT | Trafo | MT | Base |
-| ------ | -------- | ---- | ----- | -- | ---- |
+| :----: | :------: | :--: | :---: | :-: | :--: |
 | 1 | X | X | X | X | X |
 | 2 | X | X | X | - | X |
 | 3 | - | X | X | X | X |
