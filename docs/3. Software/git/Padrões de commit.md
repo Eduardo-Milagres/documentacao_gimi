@@ -218,7 +218,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Revertendo mudanças</td>
       <td>💥 <code>:boom:</code></td>
-      <td><code>correção</code></td>
+      <td><code>reversão</code></td>
     </tr>
     <tr>
       <td>Tag de versão</td>
