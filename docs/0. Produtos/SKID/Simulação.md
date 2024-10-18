@@ -154,4 +154,13 @@ $$ FS = \frac{\sigma_{esc}}{\sigma_{máx}}$$
 
 {{ imagens.inventor_report_report_path }}
 
+### 9.1. Esforço nos olhais
+>[!warning] Carga máxima dos olhais
+>Conforme os ensaios dos olhais de içamento, cada olhal suporte até {{ geral.carga_maxima_olhal_skid }} de carga.
+
+- Para garantir a integridade dos olhais durante o içamento, no relatório é necessário verificar a carga total aplicada em cada olhal.
+
+- Na seção _Results_ do relatório, na coluna _Reaction Force_ verifique a magnitude para cada ponto de fixação. A magnitude máxima não deve ultrapassar a carga máxima suportada pelo olhal.
+
+{{ imagens.inventor_report_results }}
 
