@@ -104,7 +104,7 @@
 - A tensão de Von Misses indica as tensões da estrutura.
 
 >[!warning] Atenção
->O valor máximo de tensão não pode ultrapassar a tensão de escolamento do aço ($\sigma_{esc} = ${{ geral.tensao_escoamento_A36 }}).
+>O valor máximo de tensão não pode ultrapassar a tensão de escolamento do aço ($\sigma_{esc}$ = {{ geral.tensao_escoamento_A36 }}).
 
 ### Displacement
 - Indica o deslocamento da estrutura.
