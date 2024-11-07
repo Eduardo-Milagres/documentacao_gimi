@@ -7,7 +7,7 @@
 
 - Clique em _Compartilhar_
 - Clique em _Compartilhar_
-- Na opção _Acesso Geral_ mude a permissão para *Grupo* ou *Qualquer um com o link*.
+- Na opção _Acesso Geral_ mude a permissão para *Qualquer um com o link*.
 - Selecione a opção _Leitor_ ou _Comentor_.
 
 {{ imagens.drive_compartilhar_compartilhar }}
