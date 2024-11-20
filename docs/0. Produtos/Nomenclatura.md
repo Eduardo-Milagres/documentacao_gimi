@@ -40,6 +40,9 @@ OBRA - Número da obra (E-XXXX)
 
 As siglas usadas em cada campo pode ser consultada nas tabelas abaixo
 
+### Barramento
+
+
 ### Base de {{ nomes.perfil_viga }}
 <p style="text-align:center; font-weight:bold"> AA.B.CC.112.00.X </p>
 
@@ -90,7 +93,12 @@ X - [Material](#tabela-x-material)
 ### Tabela CC - Família
 | Sigla | Família |
 | :---: | :-----: |
-| BA | Base |
+| BA* | Barramento de aterramento |
+| BD | Barramento de derivação |
+| BG | Barramento geral |
+| BI | Barramento de interligação |
+| BN* | Barramento de neutro |
+| BA* | Base |
 | BT | Batente |
 | CC | Caixa de comando |
 | CT | Caixa de transição |
@@ -106,6 +114,8 @@ X - [Material](#tabela-x-material)
 | RE | Reforço |
 | SU | Suporte |
 | TE | Tela |
+
+\* Para saber a qual família o código se refere verifique a [Aplicação](#tabela-b---aplicação).
 
 ### Tabela X - Material
 | Sigla | Material |
@@ -127,7 +137,10 @@ X - [Material](#tabela-x-material)
 | B | 14 |
 | C | 16 |
 | D | 20 |
-| X | COBRE |
+| E |  3 |
+| F |  5 |
+| G |  6 |
+| H | 10 |
 
 ### Tabela Z - Tipo de chapa
 | Sigla | Bitola |
