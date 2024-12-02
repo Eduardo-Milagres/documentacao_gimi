@@ -41,7 +41,29 @@ OBRA - Número da obra (E-XXXX)
 As siglas usadas em cada campo pode ser consultada nas tabelas abaixo
 
 ### Barramento
+O código dos barramentos padronizados são compostos da seguinte estrutura:
 
+<p style="text-align:center; font-weight:bold"> AA.B.CC.000.00.XYD </p>
+
+AA - [Produto](#tabela-aa-produto)
+B - [Aplicação](#tabela-b-aplicacao)
+CC - [Família](#tabela-cc-familia)
+000 - Número sequencial
+00 - Número da variável
+X - [Material](#tabela-x-material)
+Y - [Bitola](#tabela-y-bitola) - Tipo de barra
+D - [Fase](#tabela-d-fase)
+
+> [!exemplo] Exemplo:
+> <p style="text-align:center; font-weight:bold"> ART.B.BG.001.01.DEA </p>
+> **Produto:** Armário ao tempo
+> **Aplicação:** Barramento
+> **Família:** Barramento geral
+> **Sequência:** 001
+> **Variável:** 01
+> **Material:** Cobre
+> **Bitola:** 25x5
+> **Fase:** Aterramento
 
 ### Base de {{ nomes.perfil_viga }}
 <p style="text-align:center; font-weight:bold"> AA.B.CC.112.00.X </p>
@@ -115,7 +137,7 @@ X - [Material](#tabela-x-material)
 | SU | Suporte |
 | TE | Tela |
 
-\* Para saber a qual família o código se refere verifique a [Aplicação](#tabela-b---aplicação).
+\* Para saber a qual família o código se refere verifique a [Aplicação](#tabela-b-aplicacao).
 
 ### Tabela X - Material
 | Sigla | Material |
@@ -131,22 +153,56 @@ X - [Material](#tabela-x-material)
 | I | ASTM A36 |
 
 ### Tabela Y - Bitola
-| Sigla | Bitola |
-| :---: | :----: |
-| A | 12 |
-| B | 14 |
-| C | 16 |
-| D | 20 |
-| E |  3 |
-| F |  5 |
-| G |  6 |
-| H | 10 |
+| Sigla | Bitola chapa | Barramento - Tipo |
+| :---: | :----: | :--------------------: |
+| A | 12 | 12x3 - Canto vivo |
+| B | 14 | 20x3 - Canto vivo |
+| C | 16 | 25x3 - Canto vivo |
+| D | 20 | 20x5 - Canto vivo |
+| E | -- | 25x5 - Canto vivo |
+| F | -- | 40x5 - Canto vivo |
+| G | -- | 50x5 - Canto vivo |
+| H | -- | 60x5 - Canto vivo |
+| I | -- | 80x5 - Canto vivo |
+| J | -- | 100x5 - Canto vivo |
+| K | -- | 125x5 - Canto vivo |
+| L | -- | 25x6 - Canto vivo |
+| M | -- | 40x6 - Arredondado |
+| N | -- | 30x10 - Canto vivo |
+| O | -- | 40x10 - Canto vivo |
+| P | -- | 40x10 - Arredondado |
+| Q | -- | 50x10 - Canto vivo |
+| R | -- | 60x10 - Canto vivo |
+| S | -- | 80x10 - Canto vivo |
+| T | -- | 80x10 - Arredondado |
+| U | -- | 100x10 - Canto vivo |
+| V | -- | 120x10 - Canto vivo |
+| W | -- | 160x10 - Canto vivo |
+| X | -- | 80x5 - Canto vivo |
+| Y* | -- | $\frac{3}{8}$" x $\frac{3}{32}$" - Canto vivo * |
+
+\* Barramentos em polegada
+- Demais barramentos em milímetros
 
 ### Tabela Z - Tipo de chapa
 | Sigla | Bitola |
 | :---: | :----: |
 | F | COMUM |
 | Z | ZINCADA |
+
+### Tabela D - Fase
+| Sigla | Fase |
+| :---: | :--: |
+| A | Aterramento |
+| B | RS |
+| C | ST |
+| D | RT |
+| E | RST |
+| F | RSTN |
+| R | R |
+| S | S |
+| T | T |
+| N | N |
 
 ### Tabela 11 - Utilização da base
 | Numeração | Utilização |
