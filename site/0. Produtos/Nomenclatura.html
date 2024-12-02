@@ -422,6 +422,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#barramento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Barramento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#base-de-perfil-u" class="md-nav__link">
     <span class="md-ellipsis">
       Base de perfil U
@@ -479,6 +488,15 @@
   <a href="#tabela-z-tipo-de-chapa" class="md-nav__link">
     <span class="md-ellipsis">
       Tabela Z - Tipo de chapa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-d-fase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela D - Fase
     </span>
   </a>
   
@@ -1380,6 +1398,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#barramento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Barramento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#base-de-perfil-u" class="md-nav__link">
     <span class="md-ellipsis">
       Base de perfil U
@@ -1437,6 +1464,15 @@
   <a href="#tabela-z-tipo-de-chapa" class="md-nav__link">
     <span class="md-ellipsis">
       Tabela Z - Tipo de chapa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tabela-d-fase" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela D - Fase
     </span>
   </a>
   
@@ -1522,6 +1558,30 @@ X - <a href="#tabela-x-material">Material</a><br />
 Y - <a href="#tabela-y-bitola">Bitola</a><br />
 OBRA - Número da obra (E-XXXX)</p>
 <p>As siglas usadas em cada campo pode ser consultada nas tabelas abaixo</p>
+<h3 id="barramento">Barramento</h3>
+<p>O código dos barramentos padronizados são compostos da seguinte estrutura:</p>
+<p style="text-align:center; font-weight:bold"> AA.B.CC.000.00.XYD </p>
+
+<p>AA - <a href="#tabela-aa-produto">Produto</a><br />
+B - <a href="#tabela-b-aplicacao">Aplicação</a><br />
+CC - <a href="#tabela-cc-familia">Família</a><br />
+000 - Número sequencial<br />
+00 - Número da variável<br />
+X - <a href="#tabela-x-material">Material</a><br />
+Y - <a href="#tabela-y-bitola">Bitola</a> - Tipo de barra<br />
+D - <a href="#tabela-d-fase">Fase</a></p>
+<div class="admonition exemplo">
+<p class="admonition-title">Exemplo:</p>
+<p><p style="text-align:center; font-weight:bold"> ART.B.BG.001.01.DEA </p><br />
+<strong>Produto:</strong> Armário ao tempo<br />
+<strong>Aplicação:</strong> Barramento<br />
+<strong>Família:</strong> Barramento geral<br />
+<strong>Sequência:</strong> 001<br />
+<strong>Variável:</strong> 01<br />
+<strong>Material:</strong> Cobre<br />
+<strong>Bitola:</strong> 25x5<br />
+<strong>Fase:</strong> Aterramento</p>
+</div>
 <h3 id="base-de-perfil-u">Base de perfil U</h3>
 <p style="text-align:center; font-weight:bold"> AA.B.CC.112.00.X </p>
 
@@ -1663,7 +1723,27 @@ X - <a href="#tabela-x-material">Material</a></p>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">BA</td>
+<td style="text-align: center;">BA*</td>
+<td style="text-align: center;">Barramento de aterramento</td>
+</tr>
+<tr>
+<td style="text-align: center;">BD</td>
+<td style="text-align: center;">Barramento de derivação</td>
+</tr>
+<tr>
+<td style="text-align: center;">BG</td>
+<td style="text-align: center;">Barramento geral</td>
+</tr>
+<tr>
+<td style="text-align: center;">BI</td>
+<td style="text-align: center;">Barramento de interligação</td>
+</tr>
+<tr>
+<td style="text-align: center;">BN*</td>
+<td style="text-align: center;">Barramento de neutro</td>
+</tr>
+<tr>
+<td style="text-align: center;">BA*</td>
 <td style="text-align: center;">Base</td>
 </tr>
 <tr>
@@ -1728,6 +1808,7 @@ X - <a href="#tabela-x-material">Material</a></p>
 </tr>
 </tbody>
 </table>
+<p>* Para saber a qual família o código se refere verifique a <a href="#tabela-b-aplicacao">Aplicação</a>.</p>
 <h3 id="tabela-x-material">Tabela X - Material</h3>
 <table>
 <thead>
@@ -1780,32 +1861,140 @@ X - <a href="#tabela-x-material">Material</a></p>
 <thead>
 <tr>
 <th style="text-align: center;">Sigla</th>
-<th style="text-align: center;">Bitola</th>
+<th style="text-align: center;">Bitola chapa</th>
+<th style="text-align: center;">Barramento - Tipo</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">A</td>
 <td style="text-align: center;">12</td>
+<td style="text-align: center;">12x3 - Canto vivo</td>
 </tr>
 <tr>
 <td style="text-align: center;">B</td>
 <td style="text-align: center;">14</td>
+<td style="text-align: center;">20x3 - Canto vivo</td>
 </tr>
 <tr>
 <td style="text-align: center;">C</td>
 <td style="text-align: center;">16</td>
+<td style="text-align: center;">25x3 - Canto vivo</td>
 </tr>
 <tr>
 <td style="text-align: center;">D</td>
 <td style="text-align: center;">20</td>
+<td style="text-align: center;">20x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">25x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">40x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">G</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">50x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">H</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">60x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">I</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">80x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">J</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">100x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">125x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">L</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">25x6 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">40x6 - Arredondado</td>
+</tr>
+<tr>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">30x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">O</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">40x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">P</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">40x10 - Arredondado</td>
+</tr>
+<tr>
+<td style="text-align: center;">Q</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">50x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">R</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">60x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">S</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">80x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">80x10 - Arredondado</td>
+</tr>
+<tr>
+<td style="text-align: center;">U</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">100x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">V</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">120x10 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">W</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">160x10 - Canto vivo</td>
 </tr>
 <tr>
 <td style="text-align: center;">X</td>
-<td style="text-align: center;">COBRE</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;">80x5 - Canto vivo</td>
+</tr>
+<tr>
+<td style="text-align: center;">Y*</td>
+<td style="text-align: center;">--</td>
+<td style="text-align: center;"><span class="arithmatex">\(\frac{3}{8}\)</span>" x <span class="arithmatex">\(\frac{3}{32}\)</span>" - Canto vivo *</td>
 </tr>
 </tbody>
 </table>
+<p>* Barramentos em polegada<br />
+- Demais barramentos em milímetros</p>
 <h3 id="tabela-z-tipo-de-chapa">Tabela Z - Tipo de chapa</h3>
 <table>
 <thead>
@@ -1822,6 +2011,57 @@ X - <a href="#tabela-x-material">Material</a></p>
 <tr>
 <td style="text-align: center;">Z</td>
 <td style="text-align: center;">ZINCADA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tabela-d-fase">Tabela D - Fase</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Sigla</th>
+<th style="text-align: center;">Fase</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">Aterramento</td>
+</tr>
+<tr>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">RS</td>
+</tr>
+<tr>
+<td style="text-align: center;">C</td>
+<td style="text-align: center;">ST</td>
+</tr>
+<tr>
+<td style="text-align: center;">D</td>
+<td style="text-align: center;">RT</td>
+</tr>
+<tr>
+<td style="text-align: center;">E</td>
+<td style="text-align: center;">RST</td>
+</tr>
+<tr>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;">RSTN</td>
+</tr>
+<tr>
+<td style="text-align: center;">R</td>
+<td style="text-align: center;">R</td>
+</tr>
+<tr>
+<td style="text-align: center;">S</td>
+<td style="text-align: center;">S</td>
+</tr>
+<tr>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+</tr>
+<tr>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;">N</td>
 </tr>
 </tbody>
 </table>
