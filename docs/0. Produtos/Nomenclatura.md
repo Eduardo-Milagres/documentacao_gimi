@@ -178,8 +178,7 @@ X - [Material](#tabela-x-material)
 | U | -- | 100x10 - Canto vivo |
 | V | -- | 120x10 - Canto vivo |
 | W | -- | 160x10 - Canto vivo |
-| X | -- | 80x5 - Canto vivo |
-| Y* | -- | $\frac{3}{8}$" x $\frac{3}{32}$" - Canto vivo * |
+| X* | -- | $\frac{3}{8}$" x $\frac{3}{32}$" - Canto vivo * |
 
 \* Barramentos em polegada
 - Demais barramentos em milímetros
