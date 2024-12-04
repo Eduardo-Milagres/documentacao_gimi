@@ -192,16 +192,16 @@ X - [Material](#tabela-x-material)
 ### Tabela D - Fase
 | Sigla | Fase |
 | :---: | :--: |
-| A | Aterramento |
-| B | RS |
-| C | ST |
-| D | RT |
-| E | RST |
-| F | RSTN |
+| A | RS |
+| B | ST |
+| C | RT |
+| D | RST |
+| E | RSTN |
+| N | Neutro |
+| P | Terra |
 | R | R |
 | S | S |
 | T | T |
-| N | N |
 
 ### Tabela 11 - Utilização da base
 | Numeração | Utilização |
