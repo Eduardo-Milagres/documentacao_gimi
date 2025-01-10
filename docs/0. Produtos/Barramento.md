@@ -4,6 +4,7 @@
     .md-grid {
         max-width: 1540px; 
     }
+    
 </style>
 
 | Barra 1 | Barra 2 | Tipo de contato | Diâmetro | Quant. Furos | Entre centros | Cota borda | Contato |
