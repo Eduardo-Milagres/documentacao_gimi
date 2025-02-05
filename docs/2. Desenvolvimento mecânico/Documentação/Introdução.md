@@ -107,12 +107,12 @@ extra:
 
 Referência:
 ```bash 
-    O {{ links.perfil_viga }}
+    {{ '{{ nomes.perfil_viga }}' }}
 ```
 
 Resultado:
 ```bash
-    O perfil U...
+    perfil U...
 ```
 
 ## pymdown-extension
