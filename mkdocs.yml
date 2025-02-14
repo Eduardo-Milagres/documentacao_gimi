@@ -182,6 +182,17 @@ extra:
     inventor_constrint_settings: <img src='/assets/images/Inventor - Sketch - Constraint Settings.png' width='800' height='800'>
     inventor_constraint_settings_constraint_settings: <img src='/assets/images/Inventor - Constraint Settings - Constraint Settings.png' width='400' height='400'>
     inventor_report_results: <img src='/assets/images/Inventor - Report - Results.png' width='700' height='700'>
+    inventor_etapa_1_punch_tool: <img src='/assets/images/Inventor - Etapa 1 - Punch Tool.png' width='200' height='200'>
+    inventor_etapa_2_punch_tool: <img src='/assets/images/Inventor - Etapa 2 - Punch Tool.png' width='300' height='300'>
+    inventor_etapa_3_punch_tool: <img src='/assets/images/Inventor - Etapa 3 - Punch Tool.png' width='500' height='500'>
+    inventor_etapa_4_punch_tool: <img src='/assets/images/Inventor - Etapa 4 - Punch Tool.png' width='500' height='500'>
+    inventor_etapa_5_punch_tool: <img src='/assets/images/Inventor - Etapa 5 - Punch Tool.png' width='500' height='500'>
+    inventor_sketch_finish_sketch: <img src='/assets/images/Inventor - Sketch - Finish Sketch.png' width='700' height='700'>
+    inventor_3d_model_extrude: <img src='/assets/images/Inventor - 3D Model - Extrude.png' width='300' height='300'>
+    inventor_3d_model_extrude_extrude: <img src='/assets/images/Inventor - 3D Model - Extrude - Extrude.png' width='500' height='500'>
+    inventor_manage_extract_ifeature: <img src='/assets/images/Inventor - Manage - Extract iFeature.png' width='700' height='700'>
+    inventor_manage_extract_ifeature_sheet_metal_punch_ifeature: <img src='/assets/images/Inventor - Manage - Extract iFeature - Sheet Metal Punch iFeature.png' width='500' height='500'>
+    inventor_manage_extract_save: <img src='/assets/images/Inventor - Manage - Extract iFeature - Save.png' width='500' height='500'>
     
     barramento_tipo_contato_paralelo: <img src='/assets/images/Barramento - Tipo de contato - Paralelo.png' width='400' height='400'>
     barramento_tipo_contato_perpendicular: <img src='/assets/images/Barramento - Tipo de contato - Perpendicular.png' width='400' height='400'>
