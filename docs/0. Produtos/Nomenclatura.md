@@ -156,8 +156,8 @@ X - [Material](#tabela-x-material)
 | Sigla | Bitola chapa | Barramento - Tipo |
 | :---: | :----: | :--------------------: |
 | A | 12 | 12x3 - Canto vivo |
-| B | 14 | 20x3 - Canto vivo |
-| C | 16 | 25x3 - Canto vivo |
+| B | 14 | 20x3 - Arredondado |
+| C | 16 | 25x3 - Arredondado |
 | D | 20 | 20x5 - Canto vivo |
 | E | -- | 25x5 - Canto vivo |
 | F | -- | 40x5 - Canto vivo |
@@ -166,7 +166,7 @@ X - [Material](#tabela-x-material)
 | I | -- | 80x5 - Canto vivo |
 | J | -- | 100x5 - Canto vivo |
 | K | -- | 125x5 - Canto vivo |
-| L | -- | 25x6 - Canto vivo |
+| L | -- | 25x6 - Arredondado |
 | M | -- | 40x6 - Arredondado |
 | N | -- | 30x10 - Canto vivo |
 | O | -- | 40x10 - Canto vivo |
