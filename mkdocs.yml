@@ -100,6 +100,16 @@ extra:
     excel_colunas_perfil_produtivo: <img src='/assets/images/Excel - Colunas - Perfil Produtivo.png' width='600' height='600'>
     excel_edicao_localizar_e_substituir: <img src='/assets/images/Excel - Edição - Localizar e Selecionar.png' width='800' height='800'>
     excel_localizar_e_selecionar_substituir: <img src='/assets/images/Excel - Localizar e Selecionar - Substituir.png' width='600' height='600'>
+    excel_bloqueio_macros: <img src='/assets/images/Excel - Bloqueio de macros.png' width='600' height='600'>
+    excel_arquivo: <img src='/assets/images/Excel - Arquivo.png' width='600' height='600'>
+    excel_arquivo_opções: <img src='/assets/images/Excel - Arquivo - Opções.png' width='100' height='100'>
+    excel_arquivo_opções_central_de_confiabilidade: <img src='/assets/images/Excel - Arquivo - Opções - Central de confiabilidade.png' width='600' height='600'>
+    excel_arquivo_central_de_confiabilidade_conteudo_externo: <img src='/assets/images/Excel - Arquivo - Central de confiabilidade - Conteúdo Externo.png' width='600' height='600'>
+    excel_dados_consultas_e_conexoes: <img src='/assets/images/Excel - Dados - Consultas e Conexões.png' width='600' height='600'>
+    excel_consultas_e_conexoes_editar: <img src='/assets/images/Excel - Consultas e Conexões - Editar.png' width='400' height='400'>
+    excel_power_query_arquivo: <img src='/assets/images/Excel - Power Query - Arquivo.png' width='500' height='500'>
+    excel_power_query_opcoes_de_consulta: <img src='/assets/images/Excel - Power Query - Opções de Consulta.png' width='500' height='500'>
+    excel_power_query_opcoes_de_consulta_provacidade: <img src='/assets/images/Excel - Power Query - Opções de Consulta - Privacidade.png' width='500' height='500'>
     
     sheets_perfil_produtivo_exemplo_tabela_peças: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela peças.png' width='600' height='600'>
     sheets_perfil_produtivo_exemplo_tabela_kits_submontagem: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem.png' width='600' height='600'>
