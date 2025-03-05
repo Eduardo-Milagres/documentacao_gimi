@@ -40,6 +40,11 @@ Por padrão de segurança as planilhas do Excel bloqueiam o uso de macros, para 
   
 {{ imagens.excel_power_query_opcoes_de_consulta }}
 
-- Clique em _Privacidade_ e selecione a opção indicada na imagem abaixo:
+- Clique em _Privacidade_ no grupo _Global_ e selecione a opção indicada na imagem abaixo:
 
-{{ imagens.excel_power_query_opcoes_de_consulta_provacidade }}
+{{ imagens.excel_power_query_opcoes_de_consulta_privacidade_global }}
+
+- Clique em _Privacidade_ no grupo _Pasta de Trabalho atual_ e selecione a opção indicada na imagem abaixo:
+
+{{ imagens.excel_power_query_opcoes_de_consulta_privacidade_pasta_trabalho }}
+

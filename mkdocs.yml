@@ -109,7 +109,8 @@ extra:
     excel_consultas_e_conexoes_editar: <img src='/assets/images/Excel - Consultas e Conexões - Editar.png' width='400' height='400'>
     excel_power_query_arquivo: <img src='/assets/images/Excel - Power Query - Arquivo.png' width='500' height='500'>
     excel_power_query_opcoes_de_consulta: <img src='/assets/images/Excel - Power Query - Opções de Consulta.png' width='500' height='500'>
-    excel_power_query_opcoes_de_consulta_provacidade: <img src='/assets/images/Excel - Power Query - Opções de Consulta - Privacidade.png' width='500' height='500'>
+    excel_power_query_opcoes_de_consulta_privacidade_global: <img src='/assets/images/Excel - Power Query - Opções de Consulta - Privacidade - Global.png' width='500' height='500'>
+    excel_power_query_opcoes_de_consulta_privacidade_pasta_trabalho: <img src='/assets/images/Excel - Power Query - Opções de Consulta - Privacidade - Pasta de Trabalho.png' width='500' height='500'>
     
     sheets_perfil_produtivo_exemplo_tabela_peças: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela peças.png' width='600' height='600'>
     sheets_perfil_produtivo_exemplo_tabela_kits_submontagem: <img src='/assets/images/Sheets - Perfil produtivo - Exemplo tabela kits - Submontagem.png' width='600' height='600'>
