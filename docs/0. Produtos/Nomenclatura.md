@@ -221,4 +221,5 @@ X - [Material](#tabela-x-material)
 | :-------: | :-----------: |
 | 0 | Transformador a seco |
 | 1 | Transformador a óleo |
-| 2 | Transformador a óleo com contenção |
+| 2 | Transformador a seco e óleo |
+| 3 | Transformador a óleo com contenção |
