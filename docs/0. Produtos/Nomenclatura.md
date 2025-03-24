@@ -211,7 +211,8 @@ X - [Material](#tabela-x-material)
 | 02 | Transformador + Armário |
 | 03 | Cabine primária + Transformador |
 | 04 | Cabine primária + Transformador + Armário |
-| 05 | Armário + Inversores |
+| 05 | Cabine primária |
+| 06 | Armário + Inversores |
 
 ### Tabela 2 - Especificação
 > [!warning] Base com inversores
