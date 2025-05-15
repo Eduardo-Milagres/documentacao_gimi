@@ -63,7 +63,7 @@ D - [Fase](#tabela-d-fase)
 > **Variável:** 01
 > **Material:** Cobre
 > **Bitola:** 25x5
-> **Fase:** Aterramento
+> **Fase:** RS
 
 ### Base de {{ nomes.perfil_viga }}
 <p style="text-align:center; font-weight:bold"> AA.B.CC.112.00.X </p>
