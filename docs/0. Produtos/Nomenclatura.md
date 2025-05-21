@@ -1,6 +1,7 @@
 ## Objetivo
 A nomenclatura adotada como padrão tem como objetivo facilitar a identificação das características da peça ou conjunto apenas pelo código.
 
+A tabela oficial ([CODIFICAÇÃO_SEMI_ACABADOS_GIMI]( {{links.iso_codificacao_semi_acabados}} )) registrada na ISO se encontra no [link]({{links.iso_codificacao_semi_acabados}}) ([https://docs.google.com/spreadsheets/d/120S_JcLFQvb4WpkAalzsl23Fa7Ymhl21YeCOsveBGEo/edit?gid=505657553#gid=505657553]({{links.iso_codificacao_semi_acabados}}))
 ## Codificação
 ### Peças, montagens e submontagens
 O código das peças e conjuntos padronizados são compostos da seguinte estrutura:
